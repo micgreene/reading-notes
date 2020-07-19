@@ -3,7 +3,7 @@
 
 ### Table of Contents:
 * Reading Assignment 1
-  + Notes
+  + + [First Lab - HTML Review](https://micgreene.github.io/reading-notes/lab1.html)
   
 * Reading Assignment 2
   + Notes
