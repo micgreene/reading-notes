@@ -11,7 +11,7 @@
 1. Reading Assignment 3
   + Notes
   
-1. [Reading Assignment 4](https://micgreene.github.io/reading-notes/chapter4Notes.md)
+1. [Reading Assignment 4](https://micgreene.github.io/reading-notes/chapter4Notes)
   
 1. Reading Assignment 5
   + Notes
