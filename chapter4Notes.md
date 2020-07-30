@@ -19,5 +19,16 @@
     + clicking on the link will scroll the page down to the ID clicked on.
 
 1. ### Site Layout Using CSS
-  + 
+  + **Building Blocks**
+    + Block-Level Elements - start on a new line
+      + Examples: <h1> <p> <ul> <li> <div>
+    + Inline Elements - flow **in between** surrounding text
+      + Examples: <img> <b> <i>
+  
+  + **Containing Elements**
+    + Block level elements may be nested inside of eachother:
+
+    `<p>`
+      `<div></div>`
+    `</p>`
   
