@@ -1,4 +1,6 @@
 # **Reading Assignment 4 - HTML Links, JS Functions, and Intro to CSS Layout**
+
+1. ### HTML Linking
   + Linking to other sites
     + `<a href="ABSOLUTE or RELATIVE URL"> **Link Text** </a>`
       + An Absolute URL is the complete address of a webpage.  The Relative URL is the shortened name of the html file if that page is attached to the same domain name.
@@ -15,3 +17,7 @@
     + One line of code could be: `<a href="#first_story">First Story</a>` This creates a link to the "first_story" id.
     + To link to it, make anothe line: `<h2 id="first_story">First Story</h2>`
     + clicking on the link will scroll the page down to the ID clicked on.
+
+1. ### Site Layout Using CSS
+  + 
+  
