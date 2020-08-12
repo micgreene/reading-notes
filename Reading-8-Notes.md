@@ -5,7 +5,7 @@
     + Every **Block Level** element appears on a new line, causing each item to appear lower down the page than the previous one.
       + Even if you specify the width of the boxes and there is space to sit side by side they will still go to the next line.
   
-  + **Relative Positioning** (`position: relative; top: 10px; left: 100px;`)
+  + ### Relative Positioning** (`position: relative; top: 10px; left: 100px;`)
     + This moves an element from the position it would be in **Normal Flow** , shifting it then to the top,right,bottom, or left of where it would have been placed
       + This does not affect surrounding elements.
  
