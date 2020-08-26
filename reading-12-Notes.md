@@ -1,4 +1,4 @@
-# **Reading Assignment 12 - Docs for the HTML `<canvas>` Element & Chart.js
+# Reading Assignment 12 - Docs for the HTML `<canvas>` Element & Chart.js
 *Excerpts from https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial & https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/
 
 1. ### Basic Usage for Canvas
@@ -43,26 +43,30 @@
 1. ### Using Chart.js
   + **Download Chart.js
     + Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in. Then create a new html page and import the script: 
-    	+ `<!DOCTYPE html>
-     	+ `<html lang="en">
-     	+   `<head>
-        +     `<meta charset="utf-8" />
-        +     `<title>Chart.js demo</title>
-        +     `<script src='Chart.min.js'></script>
-    	+   `</head>
-    	+   `<body>
-    	+   `</body>
+    
+    	+ `<!DOCTYPE html>`
+     	+ `<html lang="en">`
+     	+   `<head>`
+        +     `<meta charset="utf-8" />`
+        +     `<title>Chart.js demo</title>`
+        +     `<script src='Chart.min.js'></script>`
+    	+   `</head>`
+    	+   `<body>`
+    	+   `</body>`
     	+   `</html>`
     
   + **Drawing a Line Chart
     + To draw a line chart, the first thing we need to do is create a canvas element in our HTML in which Chart.js can draw our chart. So add this to the body of our HTML page:
-        `<canvas id="buyers" width="600" height="400"></canvas>`
+    
+        + `<canvas id="buyers" width="600" height="400"></canvas>`
         
     + Next, we need to write a script that will retrieve the context of the canvas, so add this to the foot of your body element:
-        `<script>
-          `var buyers = document.getElementById('buyers').getContext('2d');
-          `new Chart(buyers).Line(buyerData);
-        `</script>
+    
+        `<script>`
+          `var buyers = document.getElementById('buyers').getContext('2d');`
+          `new Chart(buyers).Line(buyerData);`
+        `</script>`
+        
     + Inside the same script tags we need to create our data, in this instance it’s an object that contains labels for the base of our chart and datasets to describe the values on the chart. Add this immediately above the line that begins `var buyers=`:
 
        + `var buyerData = {`
@@ -80,8 +84,10 @@
         
   + **Drawing a Pie Chart
     + To draw a pie chart, we start by creating a canvas in our HTML same as last time:
-    + `<canvas id="countries" width="600" height="400"></canvas>`
-    + Next, we need to get the context and to instantiate the chart:
+    
+      + `<canvas id="countries" width="600" height="400"></canvas>`
+      
+    + Next, we need to get the context and to instantiate the chart:    
 
       + `var countries= document.getElementById("countries").getContext("2d");`
       + `new Chart(countries).Pie(pieData, pieOptions);`
@@ -90,8 +96,8 @@
 
      +    `var pieData = [`
      +    `{`
-     +      `value: 20,
-     +      `color:"#878BB6"
+     +      `value: 20,`
+     +      `color:"#878BB6"`
      +    `},`
      +   ` {`
      +     ` value : 40,`
@@ -124,24 +130,24 @@
     + Next, we retrieve the element and create the graph:
 
       + `var income = document.getElementById("income").getContext("2d");`
-      + `   new Chart(income).Bar(barData);
+      + `   new Chart(income).Bar(barData);`
       
      + And finally, we add in the bar chart’s data:
 
-      + `   var barData = {
-      + `    labels : ["January","February","March","April","May","June"],
-      +  `   datasets : [
-      + `    {
+      + `   Var barData = {`
+      + `    labels : ["January","February","March","April","May","June"],`
+      +  `   datasets : [`
+      + `    {`
       +  `      fillColor : "#48A497",
       + `      strokeColor : "#48A4D1",
-      +   `    data : [456,479,324,569,702,600]
-      +  `   },
-      +  `   {
-      +  `     fillColor : "rgba(73,188,170,0.4)",
-      +  `     strokeColor : "rgba(72,174,209,0.4)",
-      +  `     data : [364,504,605,400,345,320]
-       `   }
-      `  ]
+      +   `    data : [456,479,324,569,702,600]`
+      +  `   },`
+      +  `   {`
+      +  `     fillColor : "rgba(73,188,170,0.4)",`
+      +  `     strokeColor : "rgba(72,174,209,0.4)",`
+      +  `     data : [364,504,605,400,345,320]`
+       `   }`
+      `  ]`
       `}`
       
 + This time we’ve chosen to use RGBA to specify our colors which allows us to add transparency.
