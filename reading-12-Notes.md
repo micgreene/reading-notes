@@ -1,16 +1,13 @@
 # **Reading Assignment 12 - Docs for the HTML <canvas> Element & Chart.js**
-+ Excerpts from https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial & https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/
+*Excerpts from https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial & https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/
 
 1. ###Basic Usage for Canvas
   + **Canvas
-    + The <canvas> element has only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will initially be 300 pixels wide and 150 pixels high. The element can be sized arbitrarily by CSS, but during rendering the image is scaled to fit its layout size: if the CSS sizing doesn't respect the ratio of the initial canvas, it will appear distorted.
+    + The `<canvas>` element has only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will initially be 300 pixels wide and 150 pixels high. The element can be sized arbitrarily by CSS, but during rendering the image is scaled to fit its layout size: if the CSS sizing doesn't respect the ratio of the initial canvas, it will appear distorted.
 
       + Note: If your renderings seem distorted, try specifying your width and height attributes explicitly in the `<canvas>` attributes, and not using CSS.
 
-    + The <canvas> element can be styled just like any normal image (margin, border, background…). These rules, however, don't affect the actual drawing on the canvas. When no styling rules are applied to the canvas it will initially be fully transparent.
-      + Examples: <h1> <p> <ul> <li> <div>
-    + Inline Elements - flow **in between** surrounding text
-      + Examples: <img> <b> <i>
+    + The `<canvas>` element can be styled just like any normal image (margin, border, background…). These rules, however, don't affect the actual drawing on the canvas. When no styling rules are applied to the canvas it will initially be fully transparent.
   
   + **Fallback Content
     + The <canvas> element differs from an <img> tag in that, like for <video>, <audio>, or <picture> elements, it is easy to define some fallback content, to be displayed in older browsers not supporting it, like versions of Internet Explorer earlier than version 9 or textual browsers. You should always provide fallback content to be displayed by those browsers.
@@ -34,13 +31,13 @@
    + Checking for Support
       + The fallback content is displayed in browsers which do not support <canvas>. Scripts can also check for support programmatically by simply testing for the presence of the getContext() method. Our code snippet from above becomes something like this:
 
-        + `var canvas = document.getElementById('tutorial');
+        + `var canvas = document.getElementById('tutorial');`
 
-        `if (canvas.getContext) {
-         ` var ctx = canvas.getContext('2d');
-          `// drawing code here
-        `} else {
-          `// canvas-unsupported code here
+        `if (canvas.getContext) {`
+         ` var ctx = canvas.getContext('2d');`
+          `// drawing code here`
+        `} else {`
+          `// canvas-unsupported code here`
         `}`
     
     
