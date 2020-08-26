@@ -2,14 +2,14 @@
 *Excerpts from https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial & https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/
 
 1. ### Basic Usage for Canvas
-  + **Canvas
+  +**Canvas**
     + The `<canvas>` element has only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will initially be 300 pixels wide and 150 pixels high. The element can be sized arbitrarily by CSS, but during rendering the image is scaled to fit its layout size: if the CSS sizing doesn't respect the ratio of the initial canvas, it will appear distorted.
 
       + Note: If your renderings seem distorted, try specifying your width and height attributes explicitly in the `<canvas>` attributes, and not using CSS.
 
     + The `<canvas>` element can be styled just like any normal image (margin, border, background…). These rules, however, don't affect the actual drawing on the canvas. When no styling rules are applied to the canvas it will initially be fully transparent.
   
-  + **Fallback Content
+  +**Fallback Content**
     + The `<canvas>` element differs from an <img> tag in that, like for `<video>`, `<audio>`, or `<picture>` elements, it is easy to define some fallback content, to be displayed in older browsers not supporting it, like versions of Internet Explorer earlier than version 9 or textual browsers. You should always provide fallback content to be displayed by those browsers.
 
     + Providing fallback content is very straightforward: just insert the alternate content inside the `<canvas>` element. Browsers that don't support `<canvas>` will ignore the container and render the fallback content inside it. Browsers that do support `<canvas>` will ignore the content inside the container, and just render the canvas normally.
@@ -40,10 +40,9 @@
        + `}`
     
     
-1. ### Using Chart.js
-  + **Download Chart.js
-    + Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in. Then create a new html page and import the script: 
-    
+2. ### Using Chart.js
+  +**Download Chart.js**
+    + Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in. Then create a new html page and import the script:     
     	+ `<!DOCTYPE html>`
      	+ `<html lang="en">`
      	+   `<head>`
@@ -55,18 +54,14 @@
     	+   `</body>`
     	+   `</html>`
     
-  + **Drawing a Line Chart
+  +**Drawing a Line Chart**
     + To draw a line chart, the first thing we need to do is create a canvas element in our HTML in which Chart.js can draw our chart. So add this to the body of our HTML page:
-    
-        + `<canvas id="buyers" width="600" height="400"></canvas>`
-        
-    + Next, we need to write a script that will retrieve the context of the canvas, so add this to the foot of your body element:
-    
-        `<script>`
-          `var buyers = document.getElementById('buyers').getContext('2d');`
-          `new Chart(buyers).Line(buyerData);`
-        `</script>`
-        
+      + `<canvas id="buyers" width="600" height="400"></canvas>`
+    + Next, we need to write a script that will retrieve the context of the canvas, so add this to the foot of your body element:    
+        + `<script>`
+        + `var buyers = document.getElementById('buyers').getContext('2d');`
+        +  `new Chart(buyers).Line(buyerData);`
+        + `</script>`        
     + Inside the same script tags we need to create our data, in this instance it’s an object that contains labels for the base of our chart and datasets to describe the values on the chart. Add this immediately above the line that begins `var buyers=`:
 
        + `var buyerData = {`
