@@ -3,28 +3,44 @@
 1. ## History of Local Storage
   + ### userData
     + Was Microsoft's DHTML behavior that allowed web pages to store up to 64 KB of data per domain, in a hierarchical XML-based structure. 
-      + (Trusted domains, such as intranet sites, can store 10 times that amount.)
+      + (Trusted domains, such as intranet sites, could store 10 times that amount.)
       
-  + ### Relative Positioning** (`position: relative; top: 10px; left: 100px;`)
-    + This moves an element from the position it would be in **Normal Flow** , shifting it then to the top,right,bottom, or left of where it would have been placed
-      + This does not affect surrounding elements.
+  + ### Flash Cookies
+    + In 2002, Adobe introduced a feature in Flash 6 that gained the unfortunate and misleading name of “Flash cookies.” Within the Flash environment, the feature is properly known as Local Shared Objects. 
+      + It allowed Flash objects to store up to 100 KB of data per domain
  
- + ### Absolute Positioning (`position: absolute; top: 0px;; left: 500px; width: 250px;`)
-    + This positions the element in relation to its *containing element*.
-    + Moves as user scrolls up or down the page.
-      + This takes the element out of normal flow and does not affect surrounding elements.
+ + ### Gears
+    + In 2007, Google launched Gears, an open source browser plugin aimed at providing additional capabilities in browsers. 
+    + Gears provided an API to an embedded SQL database based on SQLite. 
+      + After obtaining permission from the user once, Gears could store unlimited amounts of data per domain in SQL database tables.
 
-+ ### Fixed Positioning (`position: fixed; top: 10px; left: 0px; padding: 10px; margin: 0px; width: 100%; background-color: grey;`)
-    + This is a form of **Absolute Positioning** that positions the element in relation to the *browser window*, instead of the *containing element*..
-    + Does *NOT* move as user scrolls up or down the page.
-      + This takes the element out of normal flow and does not affect surrounding elements.
+1. ## HTML5 Storage
+  + ### What is HTML Storage?
+    + Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.”
+    + It is a way for web pages to store named key/value pairs locally, within the client web browser. Like cookies, this data persists even after you navigate away from the web site, close your browser tab, exit your browser, or what have you. Unlike cookies, this data is never transmitted to the remote web server. 
+      + Unlike all previous attempts at providing persistent local storage, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
 
-+ ### Floating Elements (`float: right; width: 275px; font-size: 130%; font-style: italic; margin: 0px 0px 10 px 10px; padding: 10px; border-top: 1px solid black; border-bottom: 1px solid black;`)
-    + FLoating an element allows you to take that element out **Normal Flow** and positions it to the far left or right of a containing box.
-      + The **Floating Element** will become a **Block Level** element around which other content flows.
++ ### Checking for HTML5 Storage 
+    + From your JavaScript code, you’ll access HTML5 Storage through the localStorage object on the global window object. Before you can use it, you should detect whether the browser supports it:
+`function supports_html5_storage() {
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null;
+  } catch (e) {
+    return false;
+  }
+}`
 
-+ ### Ovelapping Elements (`position: fixed; z-index: 10; top: 10px; left: 0px; padding: 10px; margin: 0px; width: 100%; background-color: grey;`)
-    + When you use **Relative**, **Fixed**, or **Absolute** positiong, boxes may *overlap*. Items that appear later will sit on top of the earlier ones.
-    + To control the stack order, use the **Z-Index Property**.
-      + Will be a number, the larger the number, the closer the item will be to the top.
+1. ## Commands for Local Storage.
+  + ### Storing Info
+    + Data stored in local storage is always set as strings first. The proper practice is to use the JSON.stringify() method to first convert data to the proper format:
+    + `//converting an array to a JSON string`
+    + `imgArray = JSON.stringify(imgArray);`
+    + `//setting the array into local storage under the name, 'productArray'
+    + `localStorage.setItem('productArray', imgArray);`
+    
+  + ### Retrieving Info
+    + Data stored in local storage is always set as strings first, thus we should ensure that we use the JSON.parse() method to return the data to its original format:
+    + `//converting an array from a JSON string back to an array type JS object, parsing the array stored under the 'productArray' variable name`
+    + `imgArray = JSON.parse(localStorage.getItem('productArray'));`
+    
 
