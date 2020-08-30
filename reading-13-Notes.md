@@ -14,7 +14,7 @@
     + Gears provided an API to an embedded SQL database based on SQLite. 
       + After obtaining permission from the user once, Gears could store unlimited amounts of data per domain in SQL database tables.
 
-1. ## HTML5 Storage
+2. ## HTML5 Storage
   + ### What is HTML Storage?
     + Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.”
     + It is a way for web pages to store named key/value pairs locally, within the client web browser. Like cookies, this data persists even after you navigate away from the web site, close your browser tab, exit your browser, or what have you. Unlike cookies, this data is never transmitted to the remote web server. 
@@ -30,7 +30,7 @@
   }
 }`
 
-1. ## Commands for Local Storage.
+3. ## Commands for Local Storage.
   + ### Storing Info
     + Data stored in local storage is always set as strings first. The proper practice is to use the JSON.stringify() method to first convert data to the proper format:
     + `//converting an array to a JSON string`
