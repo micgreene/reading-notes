@@ -1,13 +1,14 @@
 # **Reading Assignment 14B - What Google Learned About Teams**
 
-1. ## History of Local Storage
-  + ### userData
-    + Was Microsoft's DHTML behavior that allowed web pages to store up to 64 KB of data per domain, in a hierarchical XML-based structure. 
-      + (Trusted domains, such as intranet sites, could store 10 times that amount.)
+## Project Aristotle
+  + In 2012, the company embarked on an initiative — code-named Project Aristotle — to study hundreds of Google’s teams and figure out why some stumbled while others soared.
+    + How often did teammates socialize outside the office? Did they have the same hobbies? Were their educational backgrounds similar? Was it better for all teammates to be outgoing or for all of them to be shy?
+      +  "We looked at 180 teams from all over the company," Abeer Dubey, a manager in Google’s People Analytics division, said. "We had lots of data, but there was nothing showing that a mix of specific personality types or skills or backgrounds made any difference. The ‘who’ part of the equation didn’t seem to matter."
       
-  + ### Flash Cookies
-    + In 2002, Adobe introduced a feature in Flash 6 that gained the unfortunate and misleading name of “Flash cookies.” Within the Flash environment, the feature is properly known as Local Shared Objects. 
-      + It allowed Flash objects to store up to 100 KB of data per domain
+  + ### Group Norms
+    + Norms are the traditions, behavioral standards and unwritten rules that govern how we function when we gather: 
+      + One team may come to a consensus that avoiding disagreement is more valuable than debate
+      + another team might develop a culture that encourages vigorous arguments and spurns groupthink
  
  + ### Gears
     + In 2007, Google launched Gears, an open source browser plugin aimed at providing additional capabilities in browsers. 
