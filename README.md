@@ -37,8 +37,8 @@
   
 1. [Reading Assignment 13](https://micgreene.github.io/reading-notes/reading-13-Notes)
   
-1. Reading Assignment 14
-  + Notes
+1. [Reading Assignment 14A](https://micgreene.github.io/reading-notes/reading-14a-Notes)
+  + [Reading Assignment 14B](https://micgreene.github.io/reading-notes/reading-14b-Notes)
   
 1. Reading Assignment 15
   + Notes
