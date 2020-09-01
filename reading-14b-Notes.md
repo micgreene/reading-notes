@@ -7,39 +7,18 @@
       
   + ### Group Norms
     + Norms are the traditions, behavioral standards and unwritten rules that govern how we function when we gather: 
-      + One team may come to a consensus that avoiding disagreement is more valuable than debate
-      + another team might develop a culture that encourages vigorous arguments and spurns groupthink
+      + One team may come to a consensus that avoiding disagreement is more valuable than debate, another team might develop a culture that encourages vigorous arguments and spurns groupthink
+      + Team members may behave in certain ways as individuals — they may chafe against authority or prefer working independently — but when they gather, the group’s norms typically override individual proclivities and encourage deference to the team.
+      + After looking at over a hundred groups for more than a year, Project Aristotle researchers concluded that understanding and influencing group norms were the keys to improving Google’s teams. But they needed to figure out which norms mattered most.
  
- + ### Gears
-    + In 2007, Google launched Gears, an open source browser plugin aimed at providing additional capabilities in browsers. 
-    + Gears provided an API to an embedded SQL database based on SQLite. 
-      + After obtaining permission from the user once, Gears could store unlimited amounts of data per domain in SQL database tables.
-
-2. ## HTML5 Storage
-  + ### What is HTML Storage?
-    + Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.”
-    + It is a way for web pages to store named key/value pairs locally, within the client web browser. Like cookies, this data persists even after you navigate away from the web site, close your browser tab, exit your browser, or what have you. Unlike cookies, this data is never transmitted to the remote web server. 
-      + Unlike all previous attempts at providing persistent local storage, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
-
-+ ### Checking for HTML5 Storage 
-    + From your JavaScript code, you’ll access HTML5 Storage through the localStorage object on the global window object. Before you can use it, you should detect whether the browser supports it:
-`function supports_html5_storage() {
-  try {
-    return 'localStorage' in window && window['localStorage'] !== null;
-  } catch (e) {
-    return false;
-  }
-}`
-
-3. ## Commands for Local Storage.
-  + ### Storing Info
-    + Data stored in local storage is always set as strings first. The proper practice is to use the JSON.stringify() method to first convert data to the proper format:
-    + `//converting an array to a JSON string`
-    + `imgArray = JSON.stringify(imgArray);`
-    + `//setting the array into local storage under the name, 'productArray'
-    + `localStorage.setItem('productArray', imgArray);`
+ + ### Psychological Safety
+    + Within psychology, researchers sometimes colloquially refer to traits like 'conversational turn-taking' and 'average social sensitivity' as aspects of what’s known as **psychological safety**.  
+      + A shared belief held by members of a team that the team is safe for interpersonal risk-taking 
     
-  + ### Retrieving Info
-    + Data stored in local storage is always set as strings first, thus we should ensure that we use the JSON.parse() method to return the data to its original format:
-    + `//converting an array from a JSON string back to an array type JS object, parsing the array stored under the 'productArray' variable name`
-    + `imgArray = JSON.parse(localStorage.getItem('productArray'));`
+    + When Rozovsky and her Google colleagues encountered the concept of psychological safety in academic papers, it was as if everything suddenly fell into place. Most of all, employees had talked about how various teams felt. 
+      + For Project Aristotle, research on psychological safety pointed to particular norms that are vital to success. 
+    
+    + In late 2014, Project Aristotle began sharing their findings with select groups of Google’s 51,000 employees. By then, they had been collecting surveys, conducting interviews and analyzing statistics for almost three years.
+      + In the best teams, members listen to one another and show sensitivity to feelings and needs.
+
+Project Aristotle is a reminder that when companies try to optimize everything, it’s sometimes easy to forget that success is often built on experiences — like emotional interactions and complicated conversations and discussions of who we want to be and how our teammates make us feel. 
