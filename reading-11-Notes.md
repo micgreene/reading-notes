@@ -22,9 +22,17 @@ img.small {
 width: 100px;
 height: 100px;}`
       
-  + ### Flash Cookies
-    + In 2002, Adobe introduced a feature in Flash 6 that gained the unfortunate and misleading name of “Flash cookies.” Within the Flash environment, the feature is properly known as Local Shared Objects. 
-      + It allowed Flash objects to store up to 100 KB of data per domain
+  + ### Aligning Images
+    + HTML
+ `<p><img src="images/magnolia-medium.jpg"
+ alt="Magnolia" class="align-left medium" />
+ <b><i>Magnolia</i></b> is a large genus that
+ contains over 200 flowering plant species...</p>
+<p><img src="images/magnolia-medium.jpg"
+ alt="Magnolia" class="align-right medium" />
+Some magnolias, such as <i>Magnolia stellata</i>
+ and <i>Magnolia soulangeana</i>, flower quite
+ early in the spring before the leaves open...</p>`
  
  + ### Gears
     + In 2007, Google launched Gears, an open source browser plugin aimed at providing additional capabilities in browsers. 
