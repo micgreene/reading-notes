@@ -3,6 +3,7 @@
 1. ## Images
   + ### Controlling Size of Images
     + HTML 
+    
 `<img src="images/magnolia-large.jpg"
  class="large" alt="Magnolia" />
 <img src="images/magnolia-medium.jpg"
@@ -11,6 +12,7 @@
  class="small" alt="Magnolia" />`
  
    + CSS
+   
 `img.large {
 width: 500px;
 height: 500px;}
