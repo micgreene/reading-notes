@@ -33,6 +33,8 @@ height: 100px;}`
 Some magnolias, such as <i>Magnolia stellata</i>
  and <i>Magnolia soulangeana</i>, flower quite
  early in the spring before the leaves open...</p>`
+  
+  + CSS
  
  + ### Gears
     + In 2007, Google launched Gears, an open source browser plugin aimed at providing additional capabilities in browsers. 
