@@ -13,16 +13,9 @@
  
    + CSS
    
-`img.large {
-
-width: 500px;
-
-height: 500px;
-}
-
-img.medium 
-
-{
+`img.large {width: 500px;
+height: 500px;}
+img.medium{
 width: 250px;
 height: 250px;}
 img.small {
