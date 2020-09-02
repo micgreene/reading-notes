@@ -246,34 +246,56 @@ just click here or your website
 address) it may be considered
 more relevant.
 
-
-      + After obtaining permission from the user once, Gears could store unlimited amounts of data per domain in SQL database tables.
-
-2. ## HTML5 Storage
-  + ### What is HTML Storage?
-    + Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.”
-    + It is a way for web pages to store named key/value pairs locally, within the client web browser. Like cookies, this data persists even after you navigate away from the web site, close your browser tab, exit your browser, or what have you. Unlike cookies, this data is never transmitted to the remote web server. 
-      + Unlike all previous attempts at providing persistent local storage, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
-
-+ ### Checking for HTML5 Storage 
-    + From your JavaScript code, you’ll access HTML5 Storage through the localStorage object on the global window object. Before you can use it, you should detect whether the browser supports it:
-`function supports_html5_storage() {
-  try {
-    return 'localStorage' in window && window['localStorage'] !== null;
-  } catch (e) {
-    return false;
-  }
-}`
-
-3. ## Commands for Local Storage.
-  + ### Storing Info
-    + Data stored in local storage is always set as strings first. The proper practice is to use the JSON.stringify() method to first convert data to the proper format:
-    + `//converting an array to a JSON string`
-    + `imgArray = JSON.stringify(imgArray);`
-    + `//setting the array into local storage under the name, 'productArray'
-    + `localStorage.setItem('productArray', imgArray);`
-    
-  + ### Retrieving Info
-    + Data stored in local storage is always set as strings first, thus we should ensure that we use the JSON.parse() method to return the data to its original format:
-    + `//converting an array from a JSON string back to an array type JS object, parsing the array stored under the 'productArray' variable name`
-    + `imgArray = JSON.parse(localStorage.getItem('productArray'));`
+  + On PAge SEO Examples:
+  
+    + 1: Page Title
+The page title appears at the top
+of the browser window or on the
+tab of a browser. It is specified in
+the <title> element which lives
+inside the <head> element.
+    + 2: URL / Web Address
+The name of the file is part of
+the URL. Where possible, use
+keywords in the file name.
+    + 3: Headings
+If the keywords are in a heading
+<hn> element then a search
+engine will know that this page is
+all about that subject and give it
+greater weight than other text.
+    + 4: Text
+Where possible, it helps to
+repeat the keywords in the main
+body of the text at least 2-3
+times. Do not, however, over-use
+these terms, because the text
+must be easy for a human to
+read.
+    + 5: Link Text
+Use keywords in the text that
+create links between pages
+(rather than using generic
+expressions such as "click here").
+    + 6: Image Alt Text
+Search engines rely on you
+providing accurate descriptions
+of images in the alt text. This
+will also help your images show
+up in the results of image-based
+searches.
+    + 7: Page Descriptions
+The description also lives inside
+the <head> element and is
+specified using a <meta> tag.
+      + It should be a sentence that
+describes the content of the
+page. (These are not shown in
+the browser window but they
+may be displayed in the results
+pages of search engines.)
+      + Never try to fool search engines!
+They will penalize you for it. For
+example, never add text in the
+same color as the background of
+the page as they can detect this.
