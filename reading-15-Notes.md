@@ -152,9 +152,9 @@
 1. ## Examples Using Transitions
   + ### Animated 404:
   **HTML:**
-  <h1>4</h1>
-  <h1>0</h1>
-  <h1>4</h1>
+  `<h1>4</h1>`
+  `<h1>0</h1>`
+  `<h1>4</h1>`
   **CSS:**
   body {
   margin:0;
@@ -203,15 +203,15 @@
   
  + ### Bouncing Ball Transforms to Square:
  **HTML:**
- <div class="animation animation-1">
-		<div class="ball"></div>
-	</div>
-	<div class="animation animation-2">
-		<div class="ball"></div>
-	</div>
-	<div class="animation animation-3">
-		<div class="ball"></div>
-	</div>	
+ `<div class="animation animation-1">`
+  `<div class="ball"></div>`
+  `</div>`
+  `<div class="animation animation-2">`
+  `<div class="ball"></div>`
+  `</div>`
+  `<div class="animation animation-3">`
+  `<div class="ball"></div>`
+  `</div>`	
  **CSS:**
  /* Animation -------------------- */
 
