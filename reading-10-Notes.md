@@ -23,7 +23,7 @@
     + This script above creates a greeting message, then
 writes it to an alert box (see right-hand page). In
 order to create that greeting, two functions are used:
-greetUser () and getName () .
+greetUser() and getName() .
 You might think that the order of execution (the
 order in which statements are processed) would be
 as numbered: one through to four. However, it is a
@@ -33,16 +33,16 @@ results of the functions in steps two and three
 (because the message contains values returned by
 those functions). The order of execution is more like
 this: 1, 2, 3, 2, 1, 4.
-    + 1. The greeting variable gets its value from the
+      + 1. The greeting variable gets its value from the
 greetUser() function.
-    + 2. greetUser() creates the message by combining
-the string 'He 11 o ' with the result of getName ().
-    + 3. getName () returns the name to greetUser() .
-    + 2. greetUser() now knows the name, and combines
+      + 2. greetUser() creates the message by combining
+the string 'Hello' with the result of getName().
+      + 3. getName() returns the name to greetUser() .
+      + 2. greetUser() now knows the name, and combines
 it with the string. It then returns the message to the
 statement that ca lled it in step 1.
-    + 1. The va lue of the greeting is stored in memory.
-    + 4. This greeting variable is written to an alert box.
+      + 1. The value of the greeting is stored in memory.
+      + 4. This greeting variable is written to an alert box.
     
     
     + In 2002, Adobe introduced a feature in Flash 6 that gained the unfortunate and misleading name of “Flash cookies.” Within the Flash environment, the feature is properly known as Local Shared Objects. 
