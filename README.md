@@ -27,8 +27,7 @@
 1. Reading Assignment 9
   + Notes
   
-1. Reading Assignment 10
-  + Notes
+1. [Reading Assignment 10](https://micgreene.github.io/reading-notes/reading-10-Notes)
   
 1. [Reading Assignment 11](https://micgreene.github.io/reading-notes/reading-11-Notes)
   
