@@ -39,5 +39,4 @@
 1. [Reading Assignment 14A](https://micgreene.github.io/reading-notes/reading-14a-Notes)
   + [Reading Assignment 14B](https://micgreene.github.io/reading-notes/reading-14b-Notes)
   
-1. Reading Assignment 15
-  + Notes
+1. [Reading Assignment 15](https://micgreene.github.io/reading-notes/reading-15-Notes)
