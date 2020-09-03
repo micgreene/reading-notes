@@ -245,7 +245,7 @@ contains keywords (rather than
 just click here or your website
 address) it may be considered
 more relevant.
-  + On PAge SEO Examples:  
+  + On Page SEO Examples:  
     + 1: Page Title
 The page title appears at the top
 of the browser window or on the
