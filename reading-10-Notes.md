@@ -2,15 +2,15 @@
 
   + ### Order of Execution
     + Consider the following code" 
-      + `function greetUser () {
-          return 'Hello' + getName();
-        }
-        function getName() {
-          var name = 'Molly';
-          return name;
-        }
-        var greeting= greetUser();
-        alert(greeting);`
+      + `function greetUser () {`
+          `return 'Hello' + getName();`
+        `}`
+        `function getName() {`
+          `var name = 'Molly';`
+          `return name;`
+        `}`
+        `ar greeting= greetUser();`
+        `alert(greeting);`
       
   + ### Flash Cookies
     + In 2002, Adobe introduced a feature in Flash 6 that gained the unfortunate and misleading name of “Flash cookies.” Within the Flash environment, the feature is properly known as Local Shared Objects. 
