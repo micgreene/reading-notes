@@ -16,7 +16,7 @@
           
         `}`
         
-        `ar greeting= greetUser();`
+        `var greeting= greetUser();`
         
         `alert(greeting);`
       
