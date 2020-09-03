@@ -3,7 +3,9 @@
   + ### Order of Execution
     + Consider the following code" 
       + `function greetUser () {`
+      
           `return 'Hello' + getName();`
+          
         `}`
         `function getName() {`
           `var name = 'Molly';`
