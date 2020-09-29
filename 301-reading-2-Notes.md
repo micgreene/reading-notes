@@ -22,6 +22,19 @@
     + **Get/Set Info with jQuery**
       + Get: `let content = $('li').html();`
       + Set: `$('li').html('New HTML Content')
+    + **Caching jQuery Info**
+      + jQuery only references information, to store it you will need to declare avariable like slways, use the '$' to mark it as a jQuery item.
+      + Example: `$listItems = $('li');`
+    + **Implicit Iteration**
+      + jQuery wil automatically cycle through ALL elements matching the referenced element, as such it does not require a specific loop to assign each element a value.
+      + Example: `$('li').addClass('seasonal') ;` will add the 'seasonal' class to ALL li items in the script.
+    + **Chaining jQuery Methods**
+      + In this one statement, three methods act on the same selec tion of elements: hide() hides the elements, delay( ) creates a pause, fadeIn() fades in the elements.
+      + Example: `$('li [id!="one"]').hide().delay(SOO).fadeln(1400);`
+    + **Checking a page is ready to work with**
+      + jQuery features a handful of functions that deal with running code when the page is ready
+      + .on() (.load - deprecated)- Fires when the page has loaded ALL resources (elements, scripts, etc)
+      + .ready() - checks if the user's browser supports the DOMContentLoaded event and fires as soon as the DOM has loaded.
 } ) ;
       
   + ### Responsive vs. Adaptive vs. Mobile
