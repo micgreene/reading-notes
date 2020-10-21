@@ -53,7 +53,7 @@
   
 1. Reading Assignment 7
   
-1. Reading Assignment 8
+1. [Reading Assignment 8](https://micgreene.github.io/reading-notes/301-reading-8-Notes)
   
 1. Reading Assignment 9
   
