@@ -38,12 +38,9 @@
     + Now we have an f argument, and use it to process a and b. We passed the sum and subtraction functions to compose with the doubleOperator function and create a new behavior.
   + **Declarative approach**
     + We want a more declarative way to solve this problem, and using the filter higher order function as well. A declarative Javascript solution would be something like this:
-      + function smaller(number) {
-      + return number < this;}
-+ function filterArray(x, listOfNumbers) {
-  return listOfNumbers.filter(smaller, x);
-}
-
-let numbers = [10, 9, 8, 2, 7, 5, 1, 3, 0];
-
-filterArray(3, numbers); // [2, 1, 0]
+      + `function smaller(number) {`
+      + `return number < this;}`
+      + `function filterArray(x, listOfNumbers) {`
+        + `return listOfNumbers.filter(smaller, x);}`
+      + `let numbers = [10, 9, 8, 2, 7, 5, 1, 3, 0];`
+      + `filterArray(3, numbers); // [2, 1, 0]`
