@@ -55,7 +55,7 @@
   
 1. [Reading Assignment 8](https://micgreene.github.io/reading-notes/301-reading-8-Notes)
   
-1. Reading Assignment 9
+1. [Reading Assignment 9](https://micgreene.github.io/reading-notes/301-reading-9-Notes)
   
 1. Reading Assignment 10
   
