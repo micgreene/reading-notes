@@ -14,9 +14,12 @@
       + If you intend you use mustache with Node and Express, you can use mustache-express. Mustache Express lets you use Mustache and Express together easily. To install:
         + `npm install mustache --save`
         + `var mustachExpress = require('mustache-express');`
-        + `app.engine('html', mustacheExpress());
+        + `app.engine('html', mustacheExpress());`
         + `app.set('view engine', 'html');`
         + `app.set('views', _dirName + '/src/views');`
+      + Next, we would create a 'views' folder inside of the 'src' directory and fill it with an html file called, in this case, 'hello.html'. Inside of 'hello.html' we will have a headline tag with our templating info:
+        + `<h1> Hello: {{ name }}</h1>`
+      
     + **HANDLE EVENTS**
       + jQuery includes methods that allow you to attach event listeners to selected elements without having to write any tailback code to support older browsers.
     + **Referencing jQuery**
