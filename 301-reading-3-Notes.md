@@ -19,6 +19,11 @@
         + `app.set('views', _dirName + '/src/views');`
       + Next, we would create a 'views' folder inside of the 'src' directory and fill it with an html file called, in this case, 'hello.html'. Inside of 'hello.html' we will have a headline tag with our templating info:
         + `<h1> Hello: {{ name }}</h1>`
+      + In our javascript file:
+        + `res.render('hello', {"name": "Sherlynn"})`
+      + Whereby the first parameter ‘hello’ refers to the hello.html file (no need to include the extension (e.g. hello.html) as it has been previously set as html. The second parameter would be the JSON data itself. We can also pass in a variable representing the data, for example:
+        + `var nameObject = {"name": "Sherlynn"}`
+        + `res.render('hello', nameObject)`
       
     + **HANDLE EVENTS**
       + jQuery includes methods that allow you to attach event listeners to selected elements without having to write any tailback code to support older browsers.
