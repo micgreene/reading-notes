@@ -26,7 +26,7 @@
         + `res.render('hello', nameObject)`      
     
 2. ## Flexbox Basics
-  + 1. **Overiview of Flexbox**
+  + **Overiview of Flexbox**
     + Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
     + If “regular” layout is based on both block and inline flow directions, the flex layout is based on “flex-flow directions”. Please have a look at this figure from the specification, explaining the main idea behind the flex layout.
     + A diagram explaining flexbox terminology. The size across the main axis of flexbox is called the main size, the other direction is the cross size. Those sizes have a main start, main end, cross start, and cross end.
