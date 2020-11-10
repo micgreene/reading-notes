@@ -65,6 +65,7 @@
   
 1. Reading Assignment 13
   
-1. Reading Assignment 14
+1. [Reading Assignment 14a](https://micgreene.github.io/reading-notes/301-reading-14a-Notes)
+  + [Reading Assignment 14b](https://micgreene.github.io/reading-notes/301-reading-14b-Notes)
   
 1. Reading Assignment 15
