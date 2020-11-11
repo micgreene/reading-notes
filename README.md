@@ -47,7 +47,7 @@
   
 1. [Reading Assignment 4](https://micgreene.github.io/reading-notes/301-reading-4-Notes)
   
-1. Reading Assignment 5
+1. [Reading Assignment 5](https://micgreene.github.io/reading-notes/301-reading-5-Notes)
   
 1. Reading Assignment 6
   
