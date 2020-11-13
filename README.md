@@ -49,7 +49,7 @@
   
 1. [Reading Assignment 5](https://micgreene.github.io/reading-notes/301-reading-5-Notes)
   
-1. Reading Assignment 6
+1. [Reading Assignment 6](https://micgreene.github.io/reading-notes/301-reading-6-Notes)
   
 1. Reading Assignment 7
   
