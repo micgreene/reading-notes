@@ -69,3 +69,8 @@
   + [Reading Assignment 14b](https://micgreene.github.io/reading-notes/301-reading-14b-Notes)
   
 1. [Reading Assignment 15](https://micgreene.github.io/reading-notes/301-reading-15-Notes)
+
+
+## Code 401 - Advanced Software Development in Full-STack JavaScript
+### Table of Contents:
+1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401js-reading-1-Notes)
