@@ -7,7 +7,9 @@
   ## Provide code snippets showing how to use superagent() to fetch data from a URL and log the result
    + With normal Promise .then() syntax
       `let info;`
+      
       `let API = process.env.API;`
+      
       `let URL = https://www.api.com/api/json/${searchedInfo}?key=${API};`
 
       `const apiCall = superagent.get(URL).then(data => {`
