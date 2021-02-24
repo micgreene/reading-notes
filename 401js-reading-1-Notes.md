@@ -1,5 +1,7 @@
-Describe (in plain English) what Array.map() does
-Array.map() takes whatever function is declared as a parameter in the .map() method and applies it to each index in the array, then creates a new array of the same length containing the results. THis does not modify the original array used.
+# **Reading Assignment 1 - Node Ecosystem, TDD, CI/CD**
+
+  ## Describe (in plain English) what Array.map() does
+     + Array.map() takes whatever function is declared as a parameter in the .map() method and applies it to each index in the array, then creates a new array of the same length containing the results. THis does not modify the original array used.
 Describe (in plain English) what Array.reduce() does
 Runs a callback function that receives (accumulator, value, index) as parameters for each value in the array, then returns whatever value you'd like using the accumulator. This does not modify the original array either.
 Provide code snippets showing how to use superagent() to fetch data from a URL and log the result
