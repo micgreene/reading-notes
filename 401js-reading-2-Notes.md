@@ -1,7 +1,7 @@
 # **Reading Assignment 2 - Express**
 
   ## What’s the difference between PUT and PATCH?
-  Ref: https://rapidapi.com/blog/put-vs-patch
+  + Ref: https://rapidapi.com/blog/put-vs-patch
     + **PUT**
       + An http verb used to completely modify a resource via data sent from a client. This means it will completely replace the entity with the new data sent or create a new one if none exist.
     + **PATCH**
