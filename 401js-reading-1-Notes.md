@@ -5,11 +5,11 @@
   ## Describe (in plain English) what Array.reduce() does
     + Runs a callback function that receives (accumulator, value, index) as parameters for each value in the array, then returns whatever value you'd like using the accumulator. This does not modify the original array either.
   ## Provide code snippets showing how to use superagent() to fetch data from a URL and log the result
-    + With normal Promise .then() syntax
-      + `let info;`
-      + `let API = process.env.API;`
+   + With normal Promise .then() syntax
+    + `let info;`
+    + `let API = process.env.API;`
 
-      + `let URL = `https://www.api.com/api/json/${searchedInfo}?key=${API}`;`
+    + `let URL = `https://www.api.com/api/json/${searchedInfo}?key=${API}`;`
 
       + `const apiCall = superagent.get(URL).then(data => {`
 
