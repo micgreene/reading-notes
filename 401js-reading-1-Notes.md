@@ -8,33 +8,23 @@
    + With normal Promise .then() syntax
       `let info;`
       `let API = process.env.API;`
-
-      `let URL = `https://www.api.com/api/json/${searchedInfo}?key=${API}`;`
+      `let URL = https://www.api.com/api/json/${searchedInfo}?key=${API};`
 
       `const apiCall = superagent.get(URL).then(data => {`
-
         `info = data.body[0].meta ? data.body[0].meta.info : ['Not Found'];`
-
         `return info;`
-
       `});`
+      `console.log(info);`
 
-console.log(info);
-
-    + Again with async / await syntax
-async function fetchData(){     
-
-     let API = process.env.API;
-
-     let URL = `https://www.api.com/api/json/${searchedInfo}?key=${API}`;
-
-     const response = await superagent.get(URL);
-
-     console.log(response);
-
-}
+   + Again with async / await syntax
+      `async function fetchData() {`
+        `let API = process.env.API;`
+        `let URL = https://www.api.com/api/json/${searchedInfo}?key=${API};`
+        `const response = await superagent.get(URL);`
+        `console.log(response);`
+      `}`
 
   ## Explain promises as though you were mentoring a Code 301 level student
-A promise is an object that will produce some type of value after some time. This usually is in the form of calls to a server for information. Either the requested info will be returned, or a reason why the value couldn't be returned.
+   + A promise is an object that will produce some type of value after some time. This usually is in the form of calls to a server for information. Either the requested info will be returned, or a reason why the value couldn't be returned.
   ## Are all callback functions considered to be Asynchronous? Why or Why Not?
-No, many callback functions, such as the .foreach() method, will not continue to the next iteration until the previous is complete.
+   + No, many callback functions, such as the .foreach() method, will not continue to the next iteration until the previous is complete.
