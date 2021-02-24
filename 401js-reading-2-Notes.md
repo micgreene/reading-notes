@@ -1,7 +1,7 @@
 # **Reading Assignment 2 - Express**
 
   ## What’s the difference between PUT and PATCH?
-  Ref: https://rapidapi.com/blog/put-vs-patch/
+  Ref: https://rapidapi.com/blog/put-vs-patch
     + **PUT**
       + An http verb used to completely modify a resource via data sent from a client. This means it will completely replace the entity with the new data sent or create a new one if none exist.
     + **PATCH**
@@ -46,7 +46,7 @@
        + Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
        + Add additional request processing "middleware" at any point within the request handling pipeline.
     + **Routing**
-    + https://www.cloudflare.com/learning/network-layer/what-is-routing/ 
+    + https://www.cloudflare.com/learning/network-layer/what-is-routing
       + The process of routing paths through networks. Routers receive a packet in which they read the header of to determine its destination, then they send it. This is done sometimes millions of times a second.
     + **WRRC**
     + https://www.codecademy.com/articles/request-response-cycle-static
