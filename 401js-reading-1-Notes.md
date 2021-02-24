@@ -13,17 +13,26 @@
       `let URL = https://www.api.com/api/json/${searchedInfo}?key=${API};`
 
       `const apiCall = superagent.get(URL).then(data => {`
+      
         `info = data.body[0].meta ? data.body[0].meta.info : ['Not Found'];`
+        
         `return info;`
+        
       `});`
+      
       `console.log(info);`
 
    + Again with async / await syntax
       `async function fetchData() {`
+      
         `let API = process.env.API;`
+        
         `let URL = https://www.api.com/api/json/${searchedInfo}?key=${API};`
+        
         `const response = await superagent.get(URL);`
+        
         `console.log(response);`
+        
       `}`
 
   ## Explain promises as though you were mentoring a Code 301 level student
