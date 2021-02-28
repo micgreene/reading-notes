@@ -20,7 +20,7 @@
   + Ref: https://www.codecademy.com/articles/what-is-rest
     + Middleware can be used after the intial HTTP request, but before that request reaches the server. Or after the server responds to the user, but before that response is complete.
     + Example: `app.post('/route', timestamp, (req, res) => {res.status(200).json(sentData)})`
-    + Here, the validate is tied to the validator.js middleware
+    + The 'timestamp' would be middleware.
   
   ## What can cause express to error with “Request headers sent twice, cannot start a second response”
    + This will happen if you attempt to send a new request at somepoint during the middleware process before the request is complete. Ensure that you are not using any HTTP request verbs ( like app.get() )during the middleware process.
