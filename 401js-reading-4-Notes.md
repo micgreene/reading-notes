@@ -27,21 +27,22 @@
     + **ReST (Representational State Transfer)** is used because all four CRUD actions can be performed using simple HTTP calls. The internet itself uses a ReST based architecture.
 
   ## Document the following Vocabulary Terms
+  
    + **functional programming**
-   + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-    +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
+      + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+        +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
     
    + **object-oriented programming (OOP)**
    + Ref: https://en.wikipedia.org/wiki/Object-oriented_programming
-    +  a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+   +  a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
     
    + **class**
    + Ref: https://en.wikipedia.org/wiki/Class_(computer_programming)
-    +  an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
+   +  an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
     
    + **super**
    + Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
-    +  The super keyword is used to access and call functions on an object's parent.
+   +  The super keyword is used to access and call functions on an object's parent.
     
    + **this**
    + Ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
@@ -53,17 +54,17 @@
     
    + **Jest**
    + Ref: https://jestjs.io/
-    +  a JavaScript Testing Framework with a focus on simplicity.
+   +  a JavaScript Testing Framework with a focus on simplicity.
     
    + **Continuous Integration (CI)**
    + Ref: https://www.ericsson.com/en/ci-cd?gclid=Cj0KCQiA4feBBhC9ARIsABp_nbWqhWNKvaYFtai_LjqvQAk1nQ9V6onePkQbgXHAKBb3dgt4IG8BkVEaAtWYEALw_wcB&gclsrc=aw.ds
-    +  the continuous provision of all the elements needed to deliver a new release achieved by an automated process of secure and frequent integration of source code into source baselines and binaries into system binaries. essentially, constantly updating a product throughout its lifecycle.
+   +  the continuous provision of all the elements needed to deliver a new release achieved by an automated process of secure and frequent integration of source code into source baselines and binaries into system binaries. essentially, constantly updating a product throughout its lifecycle.
     
    + **REST**
    + Ref: https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming
-    +  (Representational State Transfer) uses HTTP to create requests. used for simplicity and flexibility.
+   +  (Representational State Transfer) uses HTTP to create requests. used for simplicity and flexibility.
     
    + **Data Model**
    + Ref: https://en.wikipedia.org/wiki/Data_modeling
-    +  a process used to define and analyze data requirements needed when building the logic for your code.
+   +  a process used to define and analyze data requirements needed when building the logic for your code.
     
