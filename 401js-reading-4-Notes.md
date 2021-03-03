@@ -29,8 +29,8 @@
   ## Document the following Vocabulary Terms
   
    + **functional programming**
-      + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-        +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
+     + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+       +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
     
    + **object-oriented programming (OOP)**
    + Ref: https://en.wikipedia.org/wiki/Object-oriented_programming
