@@ -56,14 +56,14 @@
     +  a JavaScript Testing Framework with a focus on simplicity.
     
    + **Continuous Integration (CI)**
-   + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-    +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
+   + Ref: https://www.ericsson.com/en/ci-cd?gclid=Cj0KCQiA4feBBhC9ARIsABp_nbWqhWNKvaYFtai_LjqvQAk1nQ9V6onePkQbgXHAKBb3dgt4IG8BkVEaAtWYEALw_wcB&gclsrc=aw.ds
+    +  the continuous provision of all the elements needed to deliver a new release achieved by an automated process of secure and frequent integration of source code into source baselines and binaries into system binaries. essentially, constantly updating a product throughout its lifecycle.
     
    + **REST**
    + Ref: https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming
     +  (Representational State Transfer) uses HTTP to create requests. used for simplicity and flexibility.
     
    + **Data Model**
-   + Ref: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-    +  the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
+   + Ref: https://en.wikipedia.org/wiki/Data_modeling
+    +  a process used to define and analyze data requirements needed when building the logic for your code.
     
