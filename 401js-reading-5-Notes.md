@@ -7,6 +7,7 @@
 
    + 'value': could be any data
    + 'next': the next Node in the list
+   
     + Example, in a 3 person Conga Line:
      + 1st Dancer             --> 2nd Dancer             --> 3rd Dancer
      + 1st value: who is this --> 2nd value: who is this --> 3rd value: who is this
