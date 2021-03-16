@@ -5,28 +5,19 @@
 
   + Each Node contains 2 properties:
 
-   + 'value': could be any data
-   + 'next': the next Node in the list
+   + **'value'**: could be any data
+   + **'next'**: the next Node in the list
    
-    + Example, in a 3 person Conga Line:
+    + *Example, in a 3 person Conga Line*:
      + 1st Dancer             --> 2nd Dancer             --> 3rd Dancer
      + 1st value: who is this --> 2nd value: who is this --> 3rd value: who is this
-     + 1st next: 2nd Dancer   --> 2nd next: 3rd Dancer   --> 3rd next: null (they are at the end of the line)
+     + 1st next: 2nd Dancer   --> 2nd next: 3rd Dancer   --> 3rd next: null (they are at the end of the line)    
 
- 
-
-If this was a linked list it would be the same:
-
- 
-
-Example, in a 3 person Linked List: [3, 7, 10]
-
-1st Node            -->          2nd Node                   -->                      3rd Node
-
-value: 3                              value: 7                                                  value: 10
-
-next: 2nd Node                 next: 3rd Node                                     next: null (this is the last node)
-
+  + If this was a linked list it would be the same:
+    + *Example, in a 3 person Linked List: [3, 7, 10]*:
+     + 1st Node               --> 2nd Node               --> 3rd Node
+     + 1st value: 3           --> 2nd value: 7           --> 3rd value: 10
+     + 1st next: 7            --> 2nd next: 10           --> 3rd next: null (they are at the tail of the list)
  
 
 The 1st node is always called the 'Head', the last node is always called the 'Tail'.
