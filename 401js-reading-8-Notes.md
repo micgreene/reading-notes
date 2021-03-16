@@ -33,6 +33,8 @@
     + The client must send this token in the Authorization header when making requests to protected resources.
  
   + **secret**
-    + 
+   + ref: https://ldapwiki.com/wiki/Client%20Secret#:~:text=Overview%23,random%20to%20not%20be%20guessable.
+    +  The Client Secret is a secret known only to the OAuth Client and the Authorization Server. Client Secret must be sufficiently random to not be guessable.
+   
   + **JSON Web Token**
     + 
