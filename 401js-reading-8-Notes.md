@@ -7,7 +7,6 @@
 ## What considerations should we make when creating and storing a SECRET?
 
 ## Document the following Vocabulary Terms
-  + **Term**
   + **encryption**
   + **token**
   + **bearer**
