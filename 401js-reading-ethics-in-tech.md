@@ -4,4 +4,4 @@
 
 1. ## "The Code I'm Still Ashamed Of" by Bill Sourour
   + ### ref: https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/
-    + 
+    + Often in the pursuit of advancement in our careers we are pressured into betraying values that we would never think of in our  own time.
