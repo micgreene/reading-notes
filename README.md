@@ -71,13 +71,25 @@
 1. [Reading Assignment 15](https://micgreene.github.io/reading-notes/301-reading-15-Notes)
 
 
-## Code 401 - Advanced Software Development in Full-Stack JavaScript
+## Code 401 - Full-Stack Development with JavaScript
 ### Table of Contents:
 1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401js-reading-1-Notes)
+
 1. [Reading Assignment 2](https://micgreene.github.io/reading-notes/401js-reading-2-Notes)
+
 1. [Reading Assignment 3](https://micgreene.github.io/reading-notes/401js-reading-3-Notes)
+
 1. [Reading Assignment 4](https://micgreene.github.io/reading-notes/401js-reading-4-Notes)
+
 1. [Reading Assignment 5](https://micgreene.github.io/reading-notes/401js-reading-5-Notes)
+
 1. [Reading Assignment 6](https://micgreene.github.io/reading-notes/401js-reading-6-Notes)
+
 1. [Reading Assignment 7](https://micgreene.github.io/reading-notes/401js-reading-7-Notes)
+
 1. [Reading Assignment 8](https://micgreene.github.io/reading-notes/401js-reading-8-Notes)
+
+
+## Code 401 - Advanced Software Development in Python
+### Table of Contents:
+1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401py-reading-1-Notes)
