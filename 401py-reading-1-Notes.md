@@ -8,13 +8,9 @@
   + *O(logN)* - means that the time grows linearly while the input size n is growing exponentially.
 
  ## Python
- 
-   + **Python** - simplistic mechanics in which the effects can be surprising**
-   + **Names** - refer to values
-   +  **Values** - live until no more references -Immutable values can't be changed in place.
-   +  **Assignment** - never copies data
-   +  **Changes** - are visible through all names
-   +  **Mutable aliasing** - happens when there is mutable value
-   +  **Mutable and immutable** - exactly the same for all values. Changing is what is altered and can result in different effects.
-   +  **Names** have no type and values have no scope
-
+   + **Names** - refer to values, Python does not require you to label the typing of your values
+   +  **Values** - live until there are no more references to them, in Python values have no scope to them.
+   +  **Mutable Values** - values which can be changed or reassigned with no issue.
+   +  **Immutable values** - can't be changed in place, like a Const.
+   +  **Assignment** - creates pointers to data, it does not copy it.
+   +  **Mutable aliasing** - This is when we have one name that refers to another name that holds an original value. Both names refer to the same value and changing one will change the other.
