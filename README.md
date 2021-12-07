@@ -92,4 +92,5 @@
 
 ## Code 401 - Advanced Software Development in Python
 ### Table of Contents:
+1. [Growth Mindset](https://micgreene.github.io/reading-notes/401py-growth-mindset-Notes)
 1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401py-reading-1-Notes)
