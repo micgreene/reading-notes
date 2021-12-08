@@ -27,7 +27,7 @@
   + The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
   + **What is base condition in recursion?**
    + In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems:
-    + `int fact(int n)
+   + `int fact(int n)
 {
     if (n < = 1) // base case
         return 1;
