@@ -68,7 +68,7 @@
 1. [Reading Assignment 14a](https://micgreene.github.io/reading-notes/301-reading-14a-Notes)
   + [Reading Assignment 14b](https://micgreene.github.io/reading-notes/301-reading-14b-Notes)
   
-1. [Reading Assignment 15](https://micgreene.github.io/reading-notes/301-reading-15-Notes)
+15. [Reading Assignment 15](https://micgreene.github.io/reading-notes/301-reading-15-Notes)
 
 
 ## Code 401 - Full-Stack Development with JavaScript
