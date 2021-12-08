@@ -26,19 +26,12 @@
  ## Recursion
   + The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
   + **What is base condition in recursion?**
-   + In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems:
-   + `int fact(int n)
+   + In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems: `int fact(int n)
 {
     if (n < = 1) // base case
         return 1;
     else    
         return n*fact(n-1);    
 }`
-   + **Arrange -** you need to organize the data needed to execute that piece of code (input).
-   + **Act -** here you will execute the code being tested (exercise the behaviour).
-   + **Assert -** after executing the code, you will check if the result (output) is the same as you were expecting..
-  + *The Cycle*:
-   + The cycle is made by three steps:
-    1. Write a unit test and make it fail.
-    2. Write the feature and make the test pass!
-    3. Refactor the code.
+   + In the above example, base case for n < = 1 is defined and larger value of number can be solved by converting to smaller one till base case is reached.
+  
