@@ -16,7 +16,7 @@
  ## What does the `if __name__ == “__main__”:` do?
    + Before executing code, Python interpreter reads source file and define few special variables/global variables.
     + If the python interpreter is running that module (the source file) as the main program, it sets the special __name__ variable to have a value “__main__”. 
-    + If this file is being imported from another module, __name__ will be set to the module’s name.
+   + If this file is being imported from another module, __name__ will be set to the module’s name.
    +  **Module** - a file containing Python definitions and statements. The file name is the module name with the suffix .py appended. 
     1. Every Python module has it’s __name__ defined and if this is ‘__main__’, it implies that the module is being run standalone by the user and we can do corresponding appropriate actions.
     2. If you import this script as a module in another script, the __name__ is set to the name of the script/module.
