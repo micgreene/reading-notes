@@ -1,4 +1,4 @@
-**Reading Assignment 3 - FileIO & Exceptions**
+# **Reading Assignment 3 - FileIO & Exceptions**
 
  ## What Is a File?
   + *Files on most modern file systems are composed of three main parts:*
