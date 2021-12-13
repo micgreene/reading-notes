@@ -98,6 +98,6 @@
 
 1. [Reading Assignment 2](https://micgreene.github.io/reading-notes/401py-reading-2-Notes)
 
-1. [Reading Assignment 3](https://micgreene.github.io/reading-notes/401py-reading-3-Notes)
+1. [Reading Assignment 3 - FileIO & Exceptions](https://micgreene.github.io/reading-notes/401py-reading-3-Notes)
 
 1. [Reading Assignment 4 - Classes, Objects, Recursion](https://micgreene.github.io/reading-notes/401py-reading-4-Notes)
