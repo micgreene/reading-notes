@@ -1,5 +1,5 @@
 # Growth Mindset
-[Home](https://micgreene.github.io/readingnotes) 
+[Home](https://micgreene.github.io/readingnotes/README.md) 
 
 | ![Image](https://live.staticflickr.com/6228/6291302238_86e360d89f.jpg) | 
 |:--:| 
