@@ -94,7 +94,7 @@
 ### Table of Contents:
 1. [Growth Mindset](https://micgreene.github.io/reading-notes/401py-growth-mindset-Notes)
 
-1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401py-reading-1-Notes)
+1. [Reading Assignment 1 - Intro to Big O and Python](https://micgreene.github.io/reading-notes/401py-reading-1-Notes)
 
 1. [Reading Assignment 2 - Testing and Modules](https://micgreene.github.io/reading-notes/401py-reading-2-Notes)
 
