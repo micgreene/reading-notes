@@ -37,20 +37,20 @@
   
   *Decompose the original problem into simpler instances of the same problem. This is the recursive case:*<br />
     
-    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1`<br />
-    `n! = n x (n−1)!`<br />
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1`
+    `n! = n x (n−1)!`
     
   *As the large problem is broken down into successively less complex ones, those subproblems must eventually become so simple that they can be solved without further subdivision. This is the base case:*
 
-    `n! = n x (n−1)!`<br />
-    `n! = n x (n−1) x (n−2)!`<br />
-    `n! = n x (n−1) x (n−2) x (n−3)!`<br />⋅
-⋅
-    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3!`<br />
-    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2!`<br />
-    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1!`<br />
+    `n! = n x (n−1)!`
+    `n! = n x (n−1) x (n−2)!`
+    `n! = n x (n−1) x (n−2) x (n−3)!`
     
-    *Here, 1! is our base case, and it equals 1.*
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3!`
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2!`
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1!`
+    
+  *Here, 1! is our base case, and it equals 1.*
     
  ## Opening and Closing a File in Python
   + `file = open('dog_breeds.txt')`
