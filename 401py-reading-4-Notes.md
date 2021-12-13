@@ -2,9 +2,9 @@
 
  ## Objects
   + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**
-   `class MyClass:`
-     `variable = "blah"`
-     `def function(self):`
+   `class MyClass:`<br />
+     `variable = "blah"`<br />
+     `def function(self):`<br />
        `print("This is a message inside the class.")`
 
  ## File Paths
