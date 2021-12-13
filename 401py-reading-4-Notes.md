@@ -1,7 +1,7 @@
 # **Reading Assignment 4 - Classes, Objects, Recursion**
 
  ## Objects
-  + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**
+  + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**<br />
    `class MyClass:`<br />
      `variable = "blah"`<br />
      `def function(self):`<br />
