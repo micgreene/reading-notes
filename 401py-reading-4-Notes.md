@@ -1,24 +1,24 @@
 # **Reading Assignment 4 - Classes, Objects, Recursion**
 
  ## Objects
-  + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**<br />
+   **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**<br />
    `class MyClass:`<br />
     &nbsp;&nbsp;&nbsp;&nbsp;`variable = "blah"`<br />
     &nbsp;&nbsp;&nbsp;&nbsp;`def function(self):`<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print("This is a message inside the class.")`
   
-  ### Accessing Object Variables <br />
-    **To access variables within an object:**<br />
-    `newObject = MyClass() //create new object from class template`<br />
-    `obj_var = myobjectx.variable //access object variable`
+   ### Accessing Object Variables <br />
+   **To access variables within an object:**<br />
+   `newObject = MyClass() //create new object from class template`<br />
+   `obj_var = myobjectx.variable //access object variable`
     
-  ### Accessing Object Functions <br />
+   ### Accessing Object Functions <br />
     **To access functions within an object:**<br />
     `newObject = MyClass() //create new object from class template`<br />
     `myobjectx.function() //calls object function`
     
-  ### init()
-  **The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class. This would be called a 'constructor' in other languages**<br />
+   ### init()
+   **The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class. This would be called a 'constructor' in other languages**<br />
     `class NumberHolder:`<br />
      &nbsp;&nbsp;&nbsp;&nbsp;`def __init__(self, number):`<br />
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`self.number = number`<br />
