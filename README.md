@@ -96,7 +96,7 @@
 
 1. [Reading Assignment 1](https://micgreene.github.io/reading-notes/401py-reading-1-Notes)
 
-1. [Reading Assignment 2](https://micgreene.github.io/reading-notes/401py-reading-2-Notes)
+1. [Reading Assignment 2 - Testing and Modules](https://micgreene.github.io/reading-notes/401py-reading-2-Notes)
 
 1. [Reading Assignment 3 - FileIO & Exceptions](https://micgreene.github.io/reading-notes/401py-reading-3-Notes)
 
