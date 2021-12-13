@@ -18,7 +18,7 @@
     `myobjectx.function() //calls object function`
     
   ### init()
-    **The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class. THis would be called a 'constructor' in other languages**<br />
+  **The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class. This would be called a 'constructor' in other languages**<br />
     `class NumberHolder:`<br />
      &nbsp;&nbsp;&nbsp;&nbsp;`def __init__(self, number):`<br />
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`self.number = number`<br />
