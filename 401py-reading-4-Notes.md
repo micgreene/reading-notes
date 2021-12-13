@@ -33,7 +33,6 @@
     + This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts: 
       + *the Base Case*
       + *the Recursive Case*
-      
     + To demonstrate this structure, let’s write a recursive function for calculating n!:
     
     *Decompose the original problem into simpler instances of the same problem. This is the recursive case:*<br />
