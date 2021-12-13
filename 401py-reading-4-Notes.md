@@ -1,10 +1,12 @@
 # **Reading Assignment 4 - Classes, Objects, Recursion**
 
- ## What Is a File?
-  + *Files on most modern file systems are composed of three main parts:*
-    + Header: metadata about the contents of the file (file name, size, type, and so on)
-    + Data: contents of the file as written by the creator or editor
-    + End of file (EOF): special character that indicates the end of the file
+ ## Objects
+  + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**
+  + `class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")`
 
  ## File Paths
    + *When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file. It’s broken up into three major parts:*
