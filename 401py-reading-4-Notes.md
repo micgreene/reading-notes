@@ -3,7 +3,7 @@
  ## Objects
   + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**<br />
    `class MyClass:<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;variable = "blah"<br />
+    \&nbsp;&nbsp;&nbsp;&nbsp;variable = "blah"<br />
     &nbsp;&nbsp;&nbsp;&nbsp;def function(self):<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("This is a message inside the class.")`
 
