@@ -6,6 +6,37 @@
     &nbsp;&nbsp;&nbsp;&nbsp;`variable = "blah"`<br />
     &nbsp;&nbsp;&nbsp;&nbsp;`def function(self):`<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`print("This is a message inside the class.")`
+  
+  ### Accessing Object Variables <br />
+    **To access variables within an object:**<br />
+    `newObject = MyClass() //create new object from class template`<br />
+    `obj_var = myobjectx.variable //access object variable`
+    
+  ### Accessing Object Functions <br />
+    **To access functions within an object:**<br />
+    `newObject = MyClass() //create new object from class template`<br />
+    `myobjectx.function() //calls object function`
+    
+  ### init()
+    **The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class. THis would be called a 'constructor' in other languages**<br />
+    `class NumberHolder:`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;`def __init__(self, number):`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`self.number = number`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;`def returnNumber(self):`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return self.number`<br /><br />
+    `var = NumberHolder(7)`<br />
+    `print(var.returnNumber()) #Prints '7'`
+   
+       
+
+   
+       
+
+
+
+
+
+    
 
  ## File Paths
    + *When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file. It’s broken up into three major parts:*
