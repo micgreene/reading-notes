@@ -3,9 +3,9 @@
  ## Objects
   + **Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.**<br />
    `class MyClass:`<br />
-     `variable = "blah"`<br />
-     `def function(self):`<br />
-       `print("This is a message inside the class.")`
+       `variable = "blah"`<br />
+       `def function(self):`<br />
+           `print("This is a message inside the class.")`
 
  ## File Paths
    + *When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file. It’s broken up into three major parts:*
