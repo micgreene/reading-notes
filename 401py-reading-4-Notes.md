@@ -30,12 +30,12 @@
   
   ## File PathsRecursive Functions in Python
   **A recursive function is a function defined in terms of itself via self-referential expressions.**<br />
-    This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts: 
-      + *the Base Case*
-      + *the Recursive Case*
-    + To demonstrate this structure, let’s write a recursive function for calculating n!:
-    
+    This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts:<br /> 
+      *the Base Case*<br />
+      *the Recursive Case*<br /><br />
+    To demonstrate this structure, let’s write a recursive function for calculating n!:    
     *Decompose the original problem into simpler instances of the same problem. This is the recursive case:*<br />
+    
     `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1`<br />
     `n! = n x (n−1)!`<br />
     
