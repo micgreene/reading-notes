@@ -1,6 +1,9 @@
 # Growth Mindset
 [Home](https://micgreene.github.io/readingnotes/) 
 
+| ![Image](https://live.staticflickr.com/6228/6291302238_86e360d89f.jpg) | 
+|:--:| 
+| *"Now that I've experienced 100x Earth's gravity... I have to TRAIN in 100x Earth's gravity!" - Son Goku* |
 > "Now that I've experienced 100x Earth's gravity... I have to TRAIN in 100x Earth's gravity!" - Son Goku
 ![Image](https://live.staticflickr.com/6228/6291302238_86e360d89f.jpg)
 
