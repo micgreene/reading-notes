@@ -26,23 +26,31 @@
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return self.number`<br /><br />
     `var = NumberHolder(7)`<br />
     `print(var.returnNumber()) #Prints '7'`
-   
-       
-
-   
-       
-
-
-
-
-
     
+  
+  ## File PathsRecursive Functions in Python
+  **A recursive function is a function defined in terms of itself via self-referential expressions.**
+    + This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts: 
+      + *the Base Case*
+      + *the Recursive Case*
+      
+    + To demonstrate this structure, let’s write a recursive function for calculating n!:
+    
+    *Decompose the original problem into simpler instances of the same problem. This is the recursive case:*<br />
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1`<br />
+    `n! = n x (n−1)!`<br />
+    
+    *As the large problem is broken down into successively less complex ones, those subproblems must eventually become so simple that they can be solved without further subdivision. This is the base case:*
 
- ## File Paths
-   + *When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file. It’s broken up into three major parts:*
-    + Folder Path: the file folder location on the file system where subsequent folders are separated by a forward slash / (Unix) or backslash \ (Windows)
-    + File Name: the actual name of the file
-    + Extension: the end of the file path pre-pended with a period (.) used to indicate the file type
+    `n! = n x (n−1)!`<br />
+    `n! = n x (n−1) x (n−2)!`<br />
+    `n! = n x (n−1) x (n−2) x (n−3)!`<br />⋅
+⋅
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3!`<br />
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2!`<br />
+    `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1!`<br />
+    
+    *Here, 1! is our base case, and it equals 1.*
     
  ## Opening and Closing a File in Python
   + `file = open('dog_breeds.txt')`
