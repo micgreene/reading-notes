@@ -61,15 +61,15 @@
 
    1. Threading the state through each recursive call:<br />
        `def sum_recursive(current_number, accumulated_sum):`<br />
-         `# Base case`<br />
-         `# Return the final state`<br />
-         `if current_number == 11:`<br />
-           `return accumulated_sum`<br />
-         `# Recursive case`<br />
-         `# Thread the state through the recursive call`<br />
-         `else:`<br />
-           `return sum_recursive(current_number + 1, accumulated_sum + current_number)`
+         &nbsp;&nbsp;&nbsp;&nbsp;`# Base case`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`# Return the final state`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`if current_number == 11:`<br />
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return accumulated_sum`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`# Recursive case`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`# Thread the state through the recursive call`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`else:`<br />
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive(current_number + 1, accumulated_sum + current_number)`
          
-         `# Pass the initial state`<br />
-         `>>> sum_recursive(1, 0) //55`
+         &nbsp;&nbsp;&nbsp;&nbsp;`# Pass the initial state`<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive(1, 0) //55`
 
