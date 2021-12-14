@@ -28,7 +28,7 @@
     `print(var.returnNumber()) #Prints '7'`
     
   
-  ## File PathsRecursive Functions in Python
+  ## Recursive Functions in Python
   **A recursive function is a function defined in terms of itself via self-referential expressions.**<br />
     This means that the function will continue to call itself and repeat its behavior until some condition is met to return a result. All recursive functions share a common structure made up of two parts:<br /> 
       *the Base Case*<br />
@@ -91,11 +91,66 @@
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`current_number = current_number + 1`<br />
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive()`<br />
          
-       &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive() //55`
-    
-    
-    
-    
-        
-       
+       &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive() //55
 
+  ## Naive Recursion is Naive
+  **The Fibonacci numbers were originally deﬁned by the Italian mathematician Fibonacci in the thirteenth century to model the growth of rabbit populations. Fibonacci surmised that the number of pairs of rabbits born in a given year is equal to the number of pairs of rabbits born in each of the two previous years, starting from one pair of rabbits in the ﬁrst year.**<br />
+    To count the number of rabbits born in the nth year, he deﬁned the recurrence relation:<br /> 
+      *Fn = Fn-1 + Fn-2*<br />
+      
+    The base cases are:<br />
+      + F0 = 0<br /> 
+      + F1 = 1<br />    
+  
+ *Let’s write a recursive function to compute the nth Fibonacci number:*<br />
+
+     `def fibonacci_recursive(n):`<br />
+     `print("Calculating F", "(", n, ")", sep="", end=", ")`<br />
+
+     `# Base case`<br />
+     `if n == 0:`<br />
+     `return 0`<br />
+     `elif n == 1:`<br />
+     `return 1`<br />
+
+     `# Recursive case`<br />
+     `else:`<br />
+     `return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)`<br />
+ 
+     `>>> fibonacci_recursive(5)`<br />
+     
+     **Terminal Output:**<br />
+     **Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1),**<br />
+     **Calculating F(0), Calculating F(1), Calculating F(2), Calculating F(1), Calculating F(0),**<br />
+     **Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0), Calculating F(1),**
+
+
+
+
+
+
+
+5
+Naively following the recursive deﬁnition of the nth Fibonacci number was rather inefficient. As you can see from the output above, we are unnecessarily recomputing values. Let’s try to improve fibonacci_recursive by caching the results of each Fibonacci computation Fk:
+
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fibonacci_recursive(n):
+    print("Calculating F", "(", n, ")", sep="", end=", ")
+
+    # Base case
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+
+    # Recursive case
+    else:
+        return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+ 
+>>> fibonacci_recursive(5)
+Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0),
+
+5
+lru_cache is a decorator that caches the results. Thus, we avoid recomputation by explicitly checking for the value before trying to compute it. One thing to keep in mind about lru_cache is that since it uses a dictionary to cache results, the positional and keyword arguments (which serve as keys in that dictionary) to the function must be hashable.
