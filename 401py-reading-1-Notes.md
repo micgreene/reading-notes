@@ -1,4 +1,5 @@
 # **Reading Assignment 1 - Intro to Big O and Python**
+[Home](https://micgreene.github.io/reading-notes/)
  ## Big O notation- Notation which marks the amount and time and memory an algorithm takes to complete.
   + *O(1)* - algorithm that correlates 1 to 1 with the input data, as data grows Big O grows linearly.
   + *O(N)* - algorithm that uses some kind of variable amounts of data, this could mean an array or list must be iterated over.
