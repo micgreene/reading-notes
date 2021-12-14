@@ -52,10 +52,24 @@
     
   *Here, 1! is our* **base case,** *and it equals 1.*
     
- ## Opening and Closing a File in Python
-  + `file = open('dog_breeds.txt')`
-  + `with open('dog_breeds.txt', 'r') as reader`
-  + 'r'	Open for reading (default)
-  + 'w'	Open for writing, truncating (overwriting) the file first
-  + 'rb' or 'wb'	Open in binary mode (read/write using byte data)
+   ### Maintaining State
+   **When dealing with recursive functions, keep in mind that each recursive call has its own execution context, so to maintain state during recursion you have to either:**
+   1. **Thread the state through each recursive call so that the current state is part of the current call’s execution context**
+   1. **Keep the state in global scope**
+   
+   *Let’s calculate 1 + 2 + 3 ⋅⋅⋅⋅ + 10 using recursion. The state that we have to maintain is (current number we are adding, accumulated sum till now).*
+
+     1. Threading the state through each recursive call:<br />
+       `def sum_recursive(current_number, accumulated_sum):`<br />
+         `# Base case`<br />
+         `# Return the final state`<br />
+         `if current_number == 11:`<br />
+           `return accumulated_sum`<br />
+         `# Recursive case`<br />
+         `# Thread the state through the recursive call`<br />
+         `else:`<br />
+           `return sum_recursive(current_number + 1, accumulated_sum + current_number)`
+         
+         `# Pass the initial state`<br />
+         `>>> sum_recursive(1, 0) //55`
 
