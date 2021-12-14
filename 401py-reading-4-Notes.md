@@ -50,7 +50,7 @@
     `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2!`
     `n! = n x (n−1) x (n−2) x (n−3) ⋅⋅⋅⋅ x 3 x 2 x 1!`
     
-  *Here, 1! is our* **base case**, * and it equals 1.*
+  *Here, 1! is our* **base case,** *and it equals 1.*
     
  ## Opening and Closing a File in Python
   + `file = open('dog_breeds.txt')`
