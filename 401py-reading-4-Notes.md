@@ -71,14 +71,11 @@
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive(current_number + 1, accumulated_sum + current_number)`
          
          &nbsp;&nbsp;&nbsp;&nbsp;`# Pass the initial state`<br />
-         &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive(1, 0) //55`
-         
-         
+         &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive(1, 0) //55`<br /><br />        
    2. Keeping state in global scope:
        `#Global mutable state`<br />
        `current_number = 1`<br />
-       `accumulated_sum = 0`<br />
-       
+       `accumulated_sum = 0`<br /><br />       
        `def sum_recursive():`<br />
        &nbsp;&nbsp;&nbsp;&nbsp;`global current_number`<br />
        &nbsp;&nbsp;&nbsp;&nbsp;`global accumulated_sum`<br />
@@ -89,8 +86,7 @@
        &nbsp;&nbsp;&nbsp;&nbsp;`else:`<br />
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`accumulated_sum = accumulated_sum + current_number`<br />
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`current_number = current_number + 1`<br />
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive()`<br />
-         
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive()`<br /><br />         
        &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive() //55
 
   ## Naive Recursion is Naive
@@ -118,34 +114,24 @@
      **Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1),**<br />
      **Calculating F(0), Calculating F(1), Calculating F(2), Calculating F(1), Calculating F(0),**<br />
      **Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0), Calculating F(1),**
-
-
-
-
-
-
-
-5
-Naively following the recursive deﬁnition of the nth Fibonacci number was rather inefficient. As you can see from the output above, we are unnecessarily recomputing values. Let’s try to improve fibonacci_recursive by caching the results of each Fibonacci computation Fk:
-
-from functools import lru_cache
-
-@lru_cache(maxsize=None)
-def fibonacci_recursive(n):
-    print("Calculating F", "(", n, ")", sep="", end=", ")
-
-    # Base case
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-
-    # Recursive case
-    else:
-        return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+     
+ *Naively following the recursive deﬁnition of the nth Fibonacci number was rather inefficient. As you can see from the output above, we are unnecessarily recomputing values.*   
  
->>> fibonacci_recursive(5)
-Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0),
+ *Let’s try to improve fibonacci_recursive by caching the results of each Fibonacci computation:*<br /><br />
+     `from functools import lru_cache`<br /><br />
+     `@lru_cache(maxsize=None)`<br />
+     `def fibonacci_recursive(n):`<br />
+     `print("Calculating F", "(", n, ")", sep="", end=", ")`<br /><br />
+     `# Base case`<br />
+     `if n == 0:`<br />
+     `return 0`<br />
+     `elif n == 1:`<br />
+     `return 1`<br /><br />
+     `# Recursive case`<br />
+     `else:`<br />
+     `return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)`<br /><br />
+     `>>> fibonacci_recursive(5)`<br /><br />
+     **Terminal Output:**<br />
+     **Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0),**<br />
 
-5
-lru_cache is a decorator that caches the results. Thus, we avoid recomputation by explicitly checking for the value before trying to compute it. One thing to keep in mind about lru_cache is that since it uses a dictionary to cache results, the positional and keyword arguments (which serve as keys in that dictionary) to the function must be hashable.
+ *lru_cache is a decorator that caches the results. Thus, we avoid recomputation by explicitly checking for the value before trying to compute it. One thing to keep in mind about lru_cache is that since it uses a dictionary to cache results, the positional and keyword arguments (which serve as keys in that dictionary) to the function must be hashable.*
