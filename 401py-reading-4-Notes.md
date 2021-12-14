@@ -135,3 +135,10 @@
      **Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1), Calculating F(0),**<br />
 
  *lru_cache is a decorator that caches the results. Thus, we avoid recomputation by explicitly checking for the value before trying to compute it. One thing to keep in mind about lru_cache is that since it uses a dictionary to cache results, the positional and keyword arguments (which serve as keys in that dictionary) to the function must be hashable.*
+ 
+   ### Warning: Recursion May Cause Stack Overflow!
+   **Note: Python doesn’t have support for tail-call elimination. As a result, you can cause a stack overflow if you end up using more stack frames than the default call stack depth:**
+`>>> import sys`
+`>>> sys.getrecursionlimit()`
+**Terminal Output:**
+**3000**
