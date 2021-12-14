@@ -72,4 +72,30 @@
          
          &nbsp;&nbsp;&nbsp;&nbsp;`# Pass the initial state`<br />
          &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive(1, 0) //55`
+         
+         
+   2. Keeping state in global scope:
+       `#Global mutable state`<br />
+       `current_number = 1`<br />
+       `accumulated_sum = 0`<br />
+       
+       `def sum_recursive():`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`global current_number`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`global accumulated_sum`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`# Base case`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`if current_number == 11:`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return accumulated_sum`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`# Recursive case`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;`else:`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`accumulated_sum = accumulated_sum + current_number`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`current_number = current_number + 1`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return sum_recursive()`<br />
+         
+       &nbsp;&nbsp;&nbsp;&nbsp;`>>> sum_recursive() //55`
+    
+    
+    
+    
+        
+       
 
