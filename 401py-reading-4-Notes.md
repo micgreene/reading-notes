@@ -59,7 +59,7 @@
    
    *Let’s calculate 1 + 2 + 3 ⋅⋅⋅⋅ + 10 using recursion. The state that we have to maintain is (current number we are adding, accumulated sum till now).*
 
-     1. Threading the state through each recursive call:<br />
+   1. Threading the state through each recursive call:<br />
        `def sum_recursive(current_number, accumulated_sum):`<br />
          `# Base case`<br />
          `# Return the final state`<br />
