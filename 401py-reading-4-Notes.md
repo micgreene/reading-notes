@@ -98,12 +98,11 @@
     To count the number of rabbits born in the nth year, he deﬁned the recurrence relation:<br /> 
       *Fn = Fn-1 + Fn-2*<br />
       
-    The base cases are:<br />
-      + F0 = 0<br /> 
-      + F1 = 1<br />    
+    The base cases are:
+      F0 = 0
+      F1 = 1    
   
  *Let’s write a recursive function to compute the nth Fibonacci number:*<br />
-
      `def fibonacci_recursive(n):`<br />
      `print("Calculating F", "(", n, ")", sep="", end=", ")`<br />
 
