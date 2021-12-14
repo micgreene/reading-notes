@@ -1,5 +1,5 @@
 # **Reading Assignment 3 - FileIO & Exceptions**
-
+[Home](https://micgreene.github.io/reading-notes/)
  ## What Is a File?
   + *Files on most modern file systems are composed of three main parts:*
     + Header: metadata about the contents of the file (file name, size, type, and so on)
