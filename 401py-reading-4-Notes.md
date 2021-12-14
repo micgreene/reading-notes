@@ -102,22 +102,18 @@
       F0 = 0
       F1 = 1    
   
- *Let’s write a recursive function to compute the nth Fibonacci number:*<br />
+ *Let’s write a recursive function to compute the nth Fibonacci number:*<br /><br />
      `def fibonacci_recursive(n):`<br />
-     `print("Calculating F", "(", n, ")", sep="", end=", ")`<br />
-
+     &nbsp;&nbsp;&nbsp;&nbsp;`print("Calculating F", "(", n, ")", sep="", end=", ")`<br /><br />
      `# Base case`<br />
      `if n == 0:`<br />
-     `return 0`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;`return 0`<br />
      `elif n == 1:`<br />
-     `return 1`<br />
-
+     &nbsp;&nbsp;&nbsp;&nbsp;`return 1`<br />
      `# Recursive case`<br />
      `else:`<br />
-     `return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)`<br />
- 
-     `>>> fibonacci_recursive(5)`<br />
-     
+     &nbsp;&nbsp;&nbsp;&nbsp;`return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)`<br /><br />
+     `>>> fibonacci_recursive(5)`<br />     
      **Terminal Output:**<br />
      **Calculating F(5), Calculating F(4), Calculating F(3), Calculating F(2), Calculating F(1),**<br />
      **Calculating F(0), Calculating F(1), Calculating F(2), Calculating F(1), Calculating F(0),**<br />
