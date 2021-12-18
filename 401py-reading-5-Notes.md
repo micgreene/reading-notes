@@ -1,5 +1,5 @@
 # **Reading Assignment 5 - Linked Lists**
-[Home](https://micgreene.github.io/reading-notes/)
+[Home](https://micgreene.github.io/reading-notes/)<br />
  ## What is a Linked List?
    **A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link. There are two types of Linked List - Singly and Doubly.**<br />
   
