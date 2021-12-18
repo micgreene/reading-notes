@@ -11,3 +11,8 @@
    + *Next* - Each node contains a property called Next. This property contains the reference to the next node.
    + *Head* - The Head is a reference of type Node to the first node in a linked list.
    + *Current* - The Current is a reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
+
+ ## What does it look like
+  **This is what a Singly Linked List looks like**
+![image](https://user-images.githubusercontent.com/66289456/146649477-2db76462-5181-4c6d-82a6-5e55ac9ef110.png)
+
