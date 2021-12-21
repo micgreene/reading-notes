@@ -25,27 +25,27 @@
  ## What is Risk Analysis in Software Testing and how to perform it?<br />
    The probability of any unwanted incident is defined as Risk. In Software Testing, *risk analysis* is the process of identifying the risks in applications or software that you built and prioritizing them to test. After that, the process of assigning the level of risk is done. The categorization of the risks takes place, hence, the impact of the risk is calculated.<br />
    ### Why use Risk Analysis?
-     + In any software, using risk analysis at the beginning of a project highlights the potential problem areas. After knowing about the risk areas, it helps the developers and managers to mitigate the risks. When a test plan has been created, risks involved in testing the product are to be taken into consideration along with the possibility of the damage they may cause to your software along with solutions.
-       + Use of new hardware
-       + Use of new technology
-       + Use of new automation tool
-       + The sequence of code
-       + Availability of test resources for the application
-     + Certain risks are unavoidable:
-       + The time that you allocated for testing
-       + A defect leakage due to the complexity or size of the application
-       + Urgency from the clients to deliver the project
-       + Incomplete requirements
-     + In such cases, you have to tackle the situation with care. Following points can be taken care of:
-       + Conduct Risk Assessment review meeting
-       + Use maximum resources to work on high-risk areas
-       + Create a Risk Assessment database for future use
-       + Identify and notice the risk magnitude indicators: high, medium, low.
+   + In any software, using risk analysis at the beginning of a project highlights the potential problem areas. After knowing about the risk areas, it helps the developers and managers to mitigate the risks. When a test plan has been created, risks involved in testing the product are to be taken into consideration along with the possibility of the damage they may cause to your software along with solutions.
+     + Use of new hardware
+     + Use of new technology
+     + Use of new automation tool
+     + The sequence of code
+     + Availability of test resources for the application
+   + Certain risks are unavoidable:
+     + The time that you allocated for testing
+     + A defect leakage due to the complexity or size of the application
+     + Urgency from the clients to deliver the project
+     + Incomplete requirements
+   + In such cases, you have to tackle the situation with care. Following points can be taken care of:
+     + Conduct Risk Assessment review meeting
+     + Use maximum resources to work on high-risk areas
+     + Create a Risk Assessment database for future use
+     + Identify and notice the risk magnitude indicators: high, medium, low.
        
-     + Now, what are these risk magnitude indicators? Well, here is an explanation.
-       + **High:** means the effect of the risk would be very high and non-tolerable. The company might face loss.
-       + **Medium:** it is tolerable but not desirable. The company may suffer financially but there is a limited risk.
-       + **Low:** it is tolerable. There lies little or no external exposure or no financial loss.
+   + Now, what are these risk magnitude indicators? Well, here is an explanation.
+     + **High:** means the effect of the risk would be very high and non-tolerable. The company might face loss.
+     + **Medium:** it is tolerable but not desirable. The company may suffer financially but there is a limited risk.
+     + **Low:** it is tolerable. There lies little or no external exposure or no financial loss.
 
    ### Risk Identification
      + **Business Risks:** This risk is the most common risk associated with our topic. It is the risk that may come from your company or your customer, not from your project.
