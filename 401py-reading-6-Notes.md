@@ -5,21 +5,21 @@
    + If we wanted a random integer, we can use the randint function Randint accepts two parameters: a lowest and a highest number. Generate integers between 1,5. The first value should be less than the second.
    + `import random`<br />`print(random.randint(0, 5))`
    ### Random   
-     + If you want a larger number, you can multiply it. For example, a random number between 0 and 100:
-     + `import random`<br />`print(random.random() * 100)`
+   + If you want a larger number, you can multiply it. For example, a random number between 0 and 100:
+   + `import random`<br />`print(random.random() * 100)`
    ### Choice   
-     + Generate a random value from the sequence sequence.<br />
-       `random.choice( ['red', 'black', 'green'] )`<br />
-     + The choice function can often be used for choosing a random element from a list.
-     + `import random`<br />`print(random.random() * 100)`
+   + Generate a random value from the sequence sequence.<br />
+     `random.choice( ['red', 'black', 'green'] )`<br />
+   + The choice function can often be used for choosing a random element from a list.
+   + `import random`<br />`print(random.random() * 100)`
    ### Shuffle   
-     + The shuffle function, shuffles the elements in list in place, so they are in a random order.
-     + `from random import shuffle`<br />`x = [[i] for i in range(10)]`<br />`shuffle(x)`<br />**Output:**<br />
-     `# print x  gives  [[9], [2], [7], [0], [4], [5], [3], [1], [8], [6]]`
+   + The shuffle function, shuffles the elements in list in place, so they are in a random order.
+   + `from random import shuffle`<br />`x = [[i] for i in range(10)]`<br />`shuffle(x)`<br />**Output:**<br />
+   `# print x  gives  [[9], [2], [7], [0], [4], [5], [3], [1], [8], [6]]`
    ### Randrange   
-     + Generate a randomly selected element from range(start, stop, step)
-     + `import random`<br />`for i in range(3):`<br />
-       `print random.randrange(0, 101, 5)`
+   + Generate a randomly selected element from range(start, stop, step)
+   + `import random`<br />`for i in range(3):`<br />
+     `print random.randrange(0, 101, 5)`
    
   
  ## What is Risk Analysis in Software Testing and how to perform it?<br />
