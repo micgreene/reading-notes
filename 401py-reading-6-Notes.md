@@ -48,22 +48,22 @@
      + **Low:** it is tolerable. There lies little or no external exposure or no financial loss.
 
    ### Risk Identification
-     + **Business Risks:** This risk is the most common risk associated with our topic. It is the risk that may come from your company or your customer, not from your project.
-     + **Testing Risks:** You should be well acquainted with the platform you are working on, along with the software testing tools being used.
-     + **Premature Release Risk:** a fair amount of knowledge to analyze the risk associated with releasing unsatisfactory or untested software is required
-     + **Software Risks:** You should be well versed with the risks associated with the software development process.
+   + **Business Risks:** This risk is the most common risk associated with our topic. It is the risk that may come from your company or your customer, not from your project.
+   + **Testing Risks:** You should be well acquainted with the platform you are working on, along with the software testing tools being used.
+   + **Premature Release Risk:** a fair amount of knowledge to analyze the risk associated with releasing unsatisfactory or untested software is required
+   + **Software Risks:** You should be well versed with the risks associated with the software development process.
 
    ### Risk Assessment
-     + In the risk analysis process, these steps prove to be the most important one. It is said that this step is way too complex and should be tackled with the utmost care. After risk identification, assessment has to be dealt programmatically.
-      ![image](https://user-images.githubusercontent.com/66289456/146984956-704f9ff3-be63-48ab-94b6-1e903449f91e.png)
+   + In the risk analysis process, these steps prove to be the most important one. It is said that this step is way too complex and should be tackled with the utmost care. After risk identification, assessment has to be dealt programmatically.
+    ![image](https://user-images.githubusercontent.com/66289456/146984956-704f9ff3-be63-48ab-94b6-1e903449f91e.png)
     
    ### The perspective of Risk Assessment
-     + **Effect** – To assess risk by Effect. In case you identify a condition, event or action and try to determine its impact.
-     + **Cause** – To assess risk by Cause is opposite of by Effect. Initialize scanning the problem and reach to the point that could be the most probable reason behind that.
-     + **Likelihood** – To assess risk by Likelihood is to say that there is a probability that a requirement won’t be satisfied.
+   + **Effect** – To assess risk by Effect. In case you identify a condition, event or action and try to determine its impact.
+   + **Cause** – To assess risk by Cause is opposite of by Effect. Initialize scanning the problem and reach to the point that could be the most probable reason behind that.
+   + **Likelihood** – To assess risk by Likelihood is to say that there is a probability that a requirement won’t be satisfied.
    
    ### How to perform Risk Analysis?
-     + There are three steps:
-       + **Searching the risk**
-       + **Analyzing the impact of each individual risk**
-       + **Measures for the risk identified**
+   + There are three steps:
+     + **Searching the risk**
+     + **Analyzing the impact of each individual risk**
+     + **Measures for the risk identified**
