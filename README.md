@@ -103,3 +103,5 @@
 1. [Reading Assignment 4 - Classes, Objects, Recursion](https://micgreene.github.io/reading-notes/401py-reading-4-Notes)
 
 1. [Reading Assignment 5 - Linked Lists](https://micgreene.github.io/reading-notes/401py-reading-5-Notes)
+
+1. [Reading Assignment 6 - Game of Greed 1](https://micgreene.github.io/reading-notes/401py-reading-6-Notes)
