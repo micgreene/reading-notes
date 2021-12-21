@@ -2,8 +2,8 @@
 [Home](https://micgreene.github.io/reading-notes/)<br />
  ## How to use the Random Module in Python
    ### Randint   
-    + If we wanted a random integer, we can use the randint function Randint accepts two parameters: a lowest and a highest number. Generate integers between 1,5. The first value should be less than the second.
-    + `import random`<br />`print(random.randint(0, 5))`
+   + If we wanted a random integer, we can use the randint function Randint accepts two parameters: a lowest and a highest number. Generate integers between 1,5. The first value should be less than the second.
+   + `import random`<br />`print(random.randint(0, 5))`
    ### Random   
      + If you want a larger number, you can multiply it. For example, a random number between 0 and 100:
      + `import random`<br />`print(random.random() * 100)`
