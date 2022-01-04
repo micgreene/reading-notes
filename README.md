@@ -108,4 +108,4 @@
 
 1. [Reading Assignment 7 - Game of Greed 2](https://micgreene.github.io/reading-notes/401py-reading-6-Notes)
 
-1. [Reading Assignment 6 - Game of Greed 3](https://micgreene.github.io/reading-notes/401py-reading-8-Notes)
+1. [Reading Assignment 8 - Game of Greed 3](https://micgreene.github.io/reading-notes/401py-reading-8-Notes)
