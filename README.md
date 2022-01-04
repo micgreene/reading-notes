@@ -105,3 +105,7 @@
 1. [Reading Assignment 5 - Linked Lists](https://micgreene.github.io/reading-notes/401py-reading-5-Notes)
 
 1. [Reading Assignment 6 - Game of Greed 1](https://micgreene.github.io/reading-notes/401py-reading-6-Notes)
+
+1. [Reading Assignment 7 - Game of Greed 2](https://micgreene.github.io/reading-notes/401py-reading-6-Notes)
+
+1. [Reading Assignment 6 - Game of Greed 3](https://micgreene.github.io/reading-notes/401py-reading-8-Notes)
