@@ -29,22 +29,70 @@
      `print(squares)`
      **Output**<br />
      `[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]`
-   + The same thing can be done using a list comprehension, but with a fraction of the code. Let’s take a look at how to create a list of squares using the list comprehension method.<br />
+   + The same thing can be done using a list comprehension, but with a fraction of the code. Let’s take a look at how to create a list of squares using the list comprehension method:<br />
      `# create a list using list comprehension`<br />
      `squares = [x**2 for x in range(10)]`<br />
      `print(squares)`<br />
      
-   ### Shuffle   
-   + The shuffle function, shuffles the elements in list in place, so they are in a random order.
-   + `from random import shuffle`<br />`x = [[i] for i in range(10)]`<br />`shuffle(x)`<br />**Output:**<br />
-   `# print x  gives  [[9], [2], [7], [0], [4], [5], [3], [1], [8], [6]]`
-   ### Randrange   
-   + Generate a randomly selected element from range(start, stop, step)
-   + `import random`<br />`for i in range(3):`<br />
-     `print random.randrange(0, 101, 5)`
-   
-  
- ## What is Risk Analysis in Software Testing and how to perform it?<br />
-   The probability of any unwanted incident is defined as Risk. In Software Testing, *risk analysis* is the process of identifying the risks in applications or software that you built and prioritizing them to test. After that, the process of assigning the level of risk is done. The categorization of the risks takes place, hence, the impact of the risk is calculated.<br />
-   ### Why use Risk Analysis?
-   + In any software, using risk analysis at the beginning of a project highlights the potential problem areas. After knowing about the risk areas, it helps the developers and managers to mitigate the risks. When a test plan has been created,
+   ### Show the first letter of each word using Python
+   + So far we’ve seen examples of building a list of numbers in Python. Next, let’s try working with strings and the various ways list comprehensions can be used to elegantly handle a list of strings.
+   + Using list comprehensions with strings:<br />
+     `# a list of the names of popular authors`<br />
+     `authors = ["Ernest Hemingway","Langston Hughes","Frank Herbert","Toni Morrison",
+    "Emily Dickson","Stephen King"]`<br />
+    `# create an acronym from the first letter of the author's names`<br />
+    `letters = [ name[0] for name in authors ]`<br />
+    `print(letters)`
+    **Output**<br />
+    `['E', 'L', 'F', 'T', 'E', 'S']`<br />
+    
+   ### Print numbers only from a given string
+   + Another interesting exercise is to extract numbers from a string. For example, we may have a database of names and phone numbers.<br />
+   + we can extract the phone number from the user data.
+   + Identify numbers in a string using the isdigit() method:<br />
+     `# user data entered as name and phone number`<br />
+     `user_data = "Elvis Presley 987-654-3210"`<br />
+     `phone_number = [ x for x in user_data if x.isdigit()]`<br />
+     `print(phone_number)`<br />
+     **Output**<br />
+     `['9', '8', '7', '6', '5', '4', '3', '2', '1', '0']`
+     
+   ### Parsing a file using list comprehension
+   + It’s also possible to read files in Python using list comprehension. To demonstrate, I’ve created a file called dreams.txt and pasted the following text, a short poem by Langston Hughes:<br />
+   *Hold fast to dreams*<br />
+   *For if dreams die*<br />
+   *Life is a broken-winged bird*<br />
+   *That cannot fly.*<br />
+   *-Langston Hughes*<br />
+   + Using list comprehension, we can iterate through the lines of text in the file and store their contents in a new list.
+   + **Example 8: Reading a poem with list comprehensions:**<br />
+     `# open the file in read-only mode`<br />
+     `file = open("dreams.txt", 'r')`<br />
+     `poem = [ line for line in file ]`<br />
+     `for line in poem:`<br />
+       `print(line)`<br />
+     **Output**
+     `Hold fast to dreams`<br />
+     `For if dreams die`<br />
+     `Life is a broken-winged bird`<br />
+     `That cannot fly.`<br />
+     `-Langston Hughs`<br />
+     
+      ### Using functions in list comprehensions
+      + So far we’ve seen how to use list comprehension to generate lists using some basic Python methods like lower() and upper(). But what if we wanted to use our own Python functions?
+      + Not only can we write our own functions with list comprehensions, but we can also add filters to better control the statements.
+      + **Example 9: Adding arguments to list comprehension:**<br />
+        `# list comprehension with functions`<br />
+        `# create a function that returns a number doubled`<br />
+        `def double(x):`<br />
+          `return x*2`<br /><br />
+        `nums = [double(x) for x in range(1,10)]`<br />
+        `print(nums)`<br />
+        **Output**<br />
+        `[2, 4, 6, 8, 10, 12, 14, 16, 18]`<br />
+      + Filtering elements from the list can be done using additional arguments. In the following example, only even numbers are selected:
+        `# add a filter so we only double even numbers`<br />
+        `even_nums = [double(x) for x in range(1,10) if x%2 == 0]`<br />
+        `print(even_nums)`<br />
+        **Output**<br />
+        `[4, 8, 12, 16]`
