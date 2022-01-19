@@ -27,16 +27,16 @@
 + ^ This will create a table of 4 rows headed by the input dates from the dates list we created above and 4 columns named 'ABCD' like we chose in the DataFrane() method.
 Creating a DataFrame by passing a dict of objects that can be converted to series-like.
 
-`df2 = pd.DataFrame(`
-    `{`
-        `"A": 1.0,`
-        `"B": pd.Timestamp("20130102"),`
-        `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`
-        `"D": np.array([3] * 4, dtype="int32"),`
-        `"E": pd.Categorical(["test", "train", "test", "train"]),`
-        `"F": "foo",`
-    `}`
-`)`
+`df2 = pd.DataFrame(`<br />
+    `{`<br />
+        `"A": 1.0,`<br />
+        `"B": pd.Timestamp("20130102"),`<br />
+        `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`<br />
+        `"D": np.array([3] * 4, dtype="int32"),`<br />
+        `"E": pd.Categorical(["test", "train", "test", "train"]),`<br />
+        `"F": "foo",`<br />
+    `}`<br />
+`)`<br />
 
 
 df2
