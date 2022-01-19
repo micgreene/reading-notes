@@ -28,14 +28,14 @@
 Creating a DataFrame by passing a dict of objects that can be converted to series-like.
 
 `df2 = pd.DataFrame(`<br />
-    `{`<br />
-        `"A": 1.0,`<br />
-        `"B": pd.Timestamp("20130102"),`<br />
-        `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`<br />
-        `"D": np.array([3] * 4, dtype="int32"),`<br />
-        `"E": pd.Categorical(["test", "train", "test", "train"]),`<br />
-        `"F": "foo",`<br />
-    `}`<br />
+     `{`<br />
+          `"A": 1.0,`<br />
+          `"B": pd.Timestamp("20130102"),`<br />
+          `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`<br />
+          `"D": np.array([3] * 4, dtype="int32"),`<br />
+          `"E": pd.Categorical(["test", "train", "test", "train"]),`<br />
+          `"F": "foo",`<br />
+     `}`<br />
 `)`<br />
 
 
