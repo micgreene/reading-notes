@@ -16,15 +16,13 @@
 
 + Creating a DataFrame by passing a NumPy array, with a datetime index and labeled columns:
 
-dates = pd.date_range("20130101", periods=6)
+`dates = pd.date_range("20130101", periods=6)`<br />
 
-dates
-Out[6]: 
-DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04',
-               '2013-01-05', '2013-01-06'],
-              dtype='datetime64[ns]', freq='D')
+`print(dates)`<br />
+`DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04', '2013-01-05', '2013-01-06'],`<br />
+`dtype='datetime64[ns]', freq='D')`<br />
 
-df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))
+`df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))`
 
 df
 Out[8]: 
