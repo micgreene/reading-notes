@@ -8,9 +8,8 @@
 ### Object creation
 
 + Creating a Series by passing a list of values, letting pandas create a default integer index:
-<br />
-`s = pd.Series([1, 3, 5, np.nan, 6, 8])`<br />
 
+`s = pd.Series([1, 3, 5, np.nan, 6, 8])`
 `s
 Out[4]: 
 0    1.0
