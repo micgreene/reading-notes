@@ -24,27 +24,19 @@
 
 `df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))`
 
-df
-Out[8]: 
-                   A         B         C         D
-2013-01-01  0.469112 -0.282863 -1.509059 -1.135632
-2013-01-02  1.212112 -0.173215  0.119209 -1.044236
-2013-01-03 -0.861849 -2.104569 -0.494929  1.071804
-2013-01-04  0.721555 -0.706771 -1.039575  0.271860
-2013-01-05 -0.424972  0.567020  0.276232 -1.087401
-2013-01-06 -0.673690  0.113648 -1.478427  0.524988
++ ^ This will create a table of 4 rows headed by the input dates from the dates list we created above and 4 columns named 'ABCD' like we chose in the DataFrane() method.
 Creating a DataFrame by passing a dict of objects that can be converted to series-like.
 
-df2 = pd.DataFrame(
-    {
-        "A": 1.0,
-        "B": pd.Timestamp("20130102"),
-        "C": pd.Series(1, index=list(range(4)), dtype="float32"),
-        "D": np.array([3] * 4, dtype="int32"),
-        "E": pd.Categorical(["test", "train", "test", "train"]),
-        "F": "foo",
-    }
-)
+`df2 = pd.DataFrame(`
+    `{`
+        `"A": 1.0,`
+        `"B": pd.Timestamp("20130102"),`
+        `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`
+        `"D": np.array([3] * 4, dtype="int32"),`
+        `"E": pd.Categorical(["test", "train", "test", "train"]),`
+        `"F": "foo",`
+    `}`
+`)`
 
 
 df2
