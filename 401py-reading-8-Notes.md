@@ -1,5 +1,7 @@
 # **Reading Assignment 8 - Game of Greed 3**
+
 [Home](https://micgreene.github.io/reading-notes/)<br />
+
  ## List Comprehensions in Python
    ### Syntax   
    + Consider the following example:<br />
