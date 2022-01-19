@@ -10,17 +10,11 @@
 + Creating a Series by passing a list of values, letting pandas create a default integer index:
 
 `s = pd.Series([1, 3, 5, np.nan, 6, 8])`<br />
-`s
-<br />
-Out[4]: 
-0    1.0
-1    3.0
-2    5.0
-3    NaN
-4    6.0
-5    8.0`
-dtype: float64
-Creating a DataFrame by passing a NumPy array, with a datetime index and labeled columns:
+`print(s)`<br />
+`{0: 1.0, 1: 3.0, 2: 5.0, 3: NaN, 4: 6.0, 5: 8.0}`<br />
+`dtype: float64`<br />
+
++ Creating a DataFrame by passing a NumPy array, with a datetime index and labeled columns:
 
 dates = pd.date_range("20130101", periods=6)
 
