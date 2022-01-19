@@ -27,35 +27,25 @@
 + ^ This will create a table of 4 rows headed by the input dates from the dates list we created above and 4 columns named 'ABCD' like we chose in the DataFrane() method.
 Creating a DataFrame by passing a dict of objects that can be converted to series-like.
 
-`df2 = pd.DataFrame(`<br />
-     `{`<br />
+`df2 = pd.DataFrame({`<br />
           `"A": 1.0,`<br />
           `"B": pd.Timestamp("20130102"),`<br />
           `"C": pd.Series(1, index=list(range(4)), dtype="float32"),`<br />
           `"D": np.array([3] * 4, dtype="int32"),`<br />
           `"E": pd.Categorical(["test", "train", "test", "train"]),`<br />
           `"F": "foo",`<br />
-     `}`<br />
-`)`<br />
+     `})`<br />
 
++ The columns of the resulting DataFrame have different dtypes.
 
-df2
-Out[10]: 
-     A          B    C  D      E    F
-0  1.0 2013-01-02  1.0  3   test  foo
-1  1.0 2013-01-02  1.0  3  train  foo
-2  1.0 2013-01-02  1.0  3   test  foo
-3  1.0 2013-01-02  1.0  3  train  foo
-The columns of the resulting DataFrame have different dtypes.
-
-df2.dtypes
-Out[11]: 
-A           float64
-B    datetime64[ns]
-C           float32
-D             int32
-E          category
-F            object
+`df2.dtypes`<br />
+ <br />
+`A           float64`<br />
+`B    datetime64[ns]`<br />
+`C           float32`<br />
+`D             int32`<br />
+`E          category`<br />
+`F            object`<br />
 dtype: object
 If you’re using IPython, tab completion for column names (as well as public attributes) is automatically enabled. Here’s a subset of the attributes that will be completed:
 
