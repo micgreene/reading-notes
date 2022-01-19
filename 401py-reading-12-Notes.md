@@ -46,39 +46,25 @@ Creating a DataFrame by passing a dict of objects that can be converted to serie
 `D             int32`<br />
 `E          category`<br />
 `F            object`<br />
-dtype: object
-If you’re using IPython, tab completion for column names (as well as public attributes) is automatically enabled. Here’s a subset of the attributes that will be completed:
+`dtype: object`<br />
 
-df2.<TAB>  # noqa: E225, E999
-df2.A                  df2.bool
-df2.abs                df2.boxplot
-df2.add                df2.C
-df2.add_prefix         df2.clip
-df2.add_suffix         df2.columns
-df2.align              df2.copy
-df2.all                df2.count
-df2.any                df2.combine
-df2.append             df2.D
-df2.apply              df2.describe
-df2.applymap           df2.diff
-df2.B                  df2.duplicated
-As you can see, the columns A, B, C, and D are automatically tab completed. E and F are there as well; the rest of the attributes have been truncated for brevity.
-  + Code Consoles provide transient scratchpads for running code interactively, with full support for rich output. A code console can be linked to a notebook kernel as a computation log from the notebook, for example.
++ If you’re using IPython, tab completion for column names (as well as public attributes) is automatically enabled. The columns A, B, C, and D are automatically tab completed. E and F are there as well; the rest of the attributes have been truncated for brevity.
+  
+### Viewing data
 
-  + Kernel-backed documents enable code in any text file (Markdown, Python, R, LaTeX, etc.) to be run interactively in any Jupyter kernel.
++ Here is how to view the top and bottom rows of the frame:
+  + df.head() #displays each row from beginning
+  + df.tail(3)#displays each row from end
 
-  + Notebook cell outputs can be mirrored into their own tab, side by side with the notebook, enabling simple dashboards with interactive controls backed by a kernel.
++ Display the index, columns:
+  + df.index # a list of all indices:
+    + `DatetimeIndex(['2013-01-01', '2013-01-02', '2013-01-03', '2013-01-04', '2013-01-05', '2013-01-06'], dtype='datetime64[ns]', freq='D')`
+  + df.columns
+    + `Index(['A', 'B', 'C', 'D'], dtype='object')`
 
-  + Multiple views of documents with different editors or viewers enable live editing of documents reflected in other viewers. For example, it is easy to have live preview of Markdown, Delimiter-separated Values, or Vega/Vega-Lite documents.
-
-+ JupyterLab also offers a unified model for viewing and handling data formats. JupyterLab understands many file formats (images, CSV, JSON, Markdown, PDF, Vega, Vega-Lite, etc.) and can also display rich kernel output in these formats. 
-
-+ To navigate the user interface, JupyterLab offers customizable keyboard shortcuts and the ability to use key maps from vim, emacs, and Sublime Text in the text editor.
-
-+ JupyterLab extensions can customize or enhance any part of JupyterLab, including new themes, file editors, and custom components.
-
-+ JupyterLab is served from the same server and uses the same notebook document format as the classic Jupyter Notebook.
-
-## JupyterLab Releases¶
-+ Since JupyterLab 0.32 (February 2018), the releases of JupyterLab are suitable for general daily use by both Jupyter novices and users experienced with the Classic Notebook interface. As of the 1.0 release (June 2019), it is additionally ready for extension writers who wish to further customize the JupyterLab experience for others.
-
++ DataFrame.to_numpy() gives a NumPy representation of the underlying data. 
++ *Note that this can be an expensive operation when your DataFrame has columns with different data types*
++ Which comes down to a fundamental difference between pandas and NumPy: 
+  + NumPy arrays have one dtype for the entire array
+  + pandas DataFrames have one dtype per column. 
++ When you call DataFrame.to_numpy(), pandas will find the NumPy dtype that can hold all of the dtypes in the DataFrame. This may end up being object, which requires casting every value to a Python object.
