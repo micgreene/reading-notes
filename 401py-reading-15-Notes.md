@@ -61,6 +61,6 @@
         `if root.left is not NULL`\
           `  postOrder(root.left)`\
         `if root.right is not NULL`\
-          `  postOrder(root.right)`
+          `  postOrder(root.right)`\
         `OUTPUT <-- root.value`\
  
