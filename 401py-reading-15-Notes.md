@@ -36,28 +36,28 @@
   + In-order: D, B, E, A, F, C
   + Post-order: D, E, B, F, C, A
 + The most common way to traverse through a tree is to use recursion:
-  + Pre-order:\
-    **ALGORITHM preOrder(root)**\
-    **// INPUT <-- root node**\
-    **// OUTPUT <-- pre-order output of tree node's values**\
+  + **Pre-order:**\
+    *ALGORITHM preOrder(root)*\
+    *// INPUT <-- root node*\
+    *// OUTPUT <-- pre-order output of tree node's values*\
     `OUTPUT <-- root.value`\
     `if root.left is not Null`\
       `  preOrder(root.left)`\
     `if root.right is not NULL`\
       `  preOrder(root.right)`\
-  + In-order:\
-    **ALGORITHM inOrder(root)**\
-    **// INPUT <-- root node**\
-    **// OUTPUT <-- in-order output of tree node's values**\
+  + **In-order:**\
+    *ALGORITHM inOrder(root)*\
+    *// INPUT <-- root node*\
+    *// OUTPUT <-- in-order output of tree node's values*\
         `if root.left is not NULL`\
             `  inOrder(root.left)`\
         `OUTPUT <-- root.value`\
         `if root.right is not NULL`\
             `  inOrder(root.right)`\
-  + Post-order:\
-    **ALGORITHM postOrder(root)**\
-    // INPUT <-- root node**\
-    // OUTPUT <-- post-order output of tree node's values**\
+  + **Post-order:**\
+    *ALGORITHM postOrder(root)*\
+    *// INPUT <-- root node*\
+    *// OUTPUT <-- post-order output of tree node's values*\
         `if root.left is not NULL`\
           `  postOrder(root.left)`\
         `if root.right is not NULL`\
