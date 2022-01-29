@@ -37,9 +37,9 @@
   + Post-order: D, E, B, F, C, A
 + The most common way to traverse through a tree is to use recursion:
   + Pre-order:\
-    `ALGORITHM preOrder(root)`\
-    `// INPUT <-- root node`\
-    `// OUTPUT <-- pre-order output of tree node's values`\
+    **ALGORITHM preOrder(root)**\
+    **// INPUT <-- root node**\
+    **// OUTPUT <-- pre-order output of tree node's values**\
     `OUTPUT <-- root.value`\
     `if root.left is not Null`\
       `preOrder(root.left)`\
