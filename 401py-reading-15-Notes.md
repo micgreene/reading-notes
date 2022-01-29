@@ -65,11 +65,21 @@
           `  postOrder(root.right)`\
         `OUTPUT <-- root.value`\
   + **Breadth-First:**\
-    + Breadth First traversal is accomplished by pushing each node into a queue as they are encountered.
-    + This is done by first enqueuing the root node
+    + *Breadth First traversal is accomplished by pushing each node into a queue as they are encountered.*
+    + 1) **This is done by first enqueuing the root node:**
     + ![image](https://user-images.githubusercontent.com/66289456/151677499-213498a3-990e-4a0d-86c4-2cf4d9b23f5a.png)
-    + Begin by dequeuing the root node then enqueuing its children in order (if binary)
+    + 2) **Begin by dequeuing the root node and outputting its value, then enqueuing its children in order of left to right (if binary):**
     + ![image](https://user-images.githubusercontent.com/66289456/151677510-c81cae60-8f30-435e-a391-e85b409d5686.png)
     + ![image](https://user-images.githubusercontent.com/66289456/151677515-d6a58651-b2a8-4aaf-a5d0-8084c8a0526a.png)
+    + 3) **Once all child nodes are enqueued, dequeue the next node and output its value, then enqueue its children in order once again:**
+    + ![image](https://user-images.githubusercontent.com/66289456/151677604-04c2507a-7537-4fcf-8376-c206c1ce234d.png)
+    + 4) **Continue this process until the tree is empty (there is nothing left to dequeue):**
+    + ![image](https://user-images.githubusercontent.com/66289456/151677646-ff77fc6c-817e-4a1f-b104-4cb9b8ca2aa0.png)
+    + ![image](https://user-images.githubusercontent.com/66289456/151677656-a82dee2f-2759-438e-868b-d233155ff3af.png)
+    + ![image](https://user-images.githubusercontent.com/66289456/151677652-9a030f39-620b-4e68-bc84-58c2ae76b579.png)
+    + ![image](https://user-images.githubusercontent.com/66289456/151677666-9a65e6cb-83bb-4dac-af66-76a476361506.png)
+
+
+
 
 
