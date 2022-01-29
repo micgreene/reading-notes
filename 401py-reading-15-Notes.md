@@ -39,8 +39,8 @@
   + Pre-order:
     `ALGORITHM preOrder(root) <br />
     // INPUT <-- root node <br />
-    // OUTPUT <-- pre-order output of tree node's values\n
-    OUTPUT <-- root.value\n
+    // OUTPUT <-- pre-order output of tree node's values\
+    OUTPUT <-- root.value\
     if root.left is not Null\n
       preOrder(root.left)\n
     if root.right is not NULL\n
