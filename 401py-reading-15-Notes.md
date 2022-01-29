@@ -26,7 +26,7 @@
   + Pre-order: root >> left >> right
   + In-order: left >> root >> right
   + Post-order: left >> right >> root
-<br />
+
 **Sample Tree**
 <br />
 ![image](https://user-images.githubusercontent.com/66289456/151674136-38cf2a3d-73dd-4458-b18f-0b279301d447.png)
