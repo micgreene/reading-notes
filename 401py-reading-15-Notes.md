@@ -35,6 +35,7 @@
   + Pre-order: A, B, D, E, C, F
   + In-order: D, B, E, A, F, C
   + Post-order: D, E, B, F, C, A
+  + Breadth First: A, B, C, D, E, F
 + The most common way to traverse through a tree is to use recursion:
   + **Pre-order:**\
     *ALGORITHM preOrder(root)*\
@@ -63,4 +64,12 @@
         `if root.right is not NULL`\
           `  postOrder(root.right)`\
         `OUTPUT <-- root.value`\
- 
+  + **Breadth-First:**\
+    + Breadth First traversal is accomplished by pushing each node into a queue as they are encountered.
+    + This is done by first enqueuing the root node
+    + ![image](https://user-images.githubusercontent.com/66289456/151677499-213498a3-990e-4a0d-86c4-2cf4d9b23f5a.png)
+    + Begin by dequeuing the root node then enqueuing its children in order (if binary)
+    + ![image](https://user-images.githubusercontent.com/66289456/151677510-c81cae60-8f30-435e-a391-e85b409d5686.png)
+    + ![image](https://user-images.githubusercontent.com/66289456/151677515-d6a58651-b2a8-4aaf-a5d0-8084c8a0526a.png)
+
+
