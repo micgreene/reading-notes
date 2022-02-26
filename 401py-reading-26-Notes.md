@@ -29,13 +29,13 @@
    &nbsp;&nbsp;`<body>`<br />
     &nbsp;&nbsp;&nbsp;&nbsp; `<h1>All Bands</h1>`<br />
      &nbsp;&nbsp;&nbsp;&nbsp;`<ul>`<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;`{% for band in bands %}`<br />
-       &nbsp;&nbsp;&nbsp;&nbsp;`<li>`<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<h2><a href="{{ band.get_absolute_url }}">{{ band.name }}</a></h2>`<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{% if band.can_rock %}<p>This band can rock!</p>{% endif %}`<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{% for band in bands %}`<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<li>`<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<h2><a href="{{ band.get_absolute_url }}">{{ band.name }}</a></h2>`<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{% if band.can_rock %}<p>This band can rock!</p>{% endif %}`<br />
       &nbsp;&nbsp;&nbsp;&nbsp;`</li>`<br />
-    &nbsp;&nbsp;`{% endfor %}`<br />
-    &nbsp;&nbsp;`</ul>`<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`{% endfor %}`<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;`</ul>`<br />
    &nbsp;&nbsp;`</body>`<br />
 `</html>`<br />
 
