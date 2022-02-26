@@ -21,16 +21,16 @@
     `return render(request, 'bands/band_listing.html', {'bands': bands})`<br />
 
 ## Templates
-+ Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed.
++ Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed.<br />
 `<html>`<br />
-  &nbsp;`<head>`<br />
-    `<title>Band Listing</title>`<br />
- `</head>`<br />
-  `<body>`<br />
-    `<h1>All Bands</h1>`<br />
-    `<ul>`<br />
-    `{% for band in bands %}`<br />
-      `<li>`<br />
+  &nbsp;&nbsp;`<head>`<br />
+     &nbsp;&nbsp; &nbsp;&nbsp;`<title>Band Listing</title>`<br />
+  &nbsp;&nbsp;`</head>`<br />
+   &nbsp;&nbsp;`<body>`<br />
+    &nbsp;&nbsp; &nbsp;&nbsp; `<h1>All Bands</h1>`<br />
+     &nbsp;&nbsp; &nbsp;&nbsp;`<ul>`<br />
+     &nbsp;&nbsp; &nbsp;&nbsp;`{% for band in bands %}`<br />
+       &nbsp;&nbsp; &nbsp;&nbsp;`<li>`<br />
         `<h2><a href="{{ band.get_absolute_url }}">{{ band.name }}</a></h2>`<br />
         `{% if band.can_rock %}<p>This band can rock!</p>{% endif %}`<br />
       `</li>`<br />
