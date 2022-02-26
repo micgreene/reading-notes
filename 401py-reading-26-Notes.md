@@ -23,7 +23,7 @@
 ## Templates
 + Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed.
 `<html>`<br />
-  `<head>`<br />
+  &nbsp;`<head>`<br />
     `<title>Band Listing</title>`<br />
  `</head>`<br />
   `<body>`<br />
