@@ -1,13 +1,7 @@
 # Django CRUD and Forms
 
 ## HTML Forms
-+ The form is defined in HTML as a collection of elements inside <form>...</form> tags, containing at least one input element of type="submit".<br />
-<br />
-`<form action="/team_name_url/" method="post">`
-&nbsp;&nbsp;`<label for="team_name">Enter name: </label>`
-&nbsp;&nbsp;`<input id="team_name" type="text" name="name_field" value="Default name for team.">`
-&nbsp;&nbsp;`<input type="submit" value="OK">`
-`</form>`
++ The form is defined in HTML as a collection of elements inside <form>...</form> tags, containing at least one input element of type="submit".
 + The submit input will be displayed as a button (by default) that can be pressed by the user to upload the data in all the other input elements in the form to the server (in this case, just the team_name). 
 + The form attributes define the HTTP method used to send the data and the destination of the data on the server (action):
   + action: The resource/URL where data is to be sent for processing when the form is submitted. If this is not set (or set to an empty string), then the form will be submitted back to the current page URL.
