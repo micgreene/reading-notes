@@ -63,7 +63,7 @@
 
 + Each Row and column represents each vertex of the data structure. The elements of both the column and the row must add up to 1 if there is an edge that connects the two, or zero if there isn’t a connection.
 
-This is what an adjacency matrix looks like:
+*This is what an adjacency matrix looks like:*<br />
 ![AdjMatrix](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/AdjMatrix.PNG)
 
 
