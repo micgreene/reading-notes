@@ -15,7 +15,7 @@
 
 + An Undirected Graph is a graph where each edge is undirected or bi-directional. This means that the undirected graph does not move in any direction.
 
-## Directed Graphs (Digraph)
+### Directed Graphs (Digraph)
 
 + A Directed Graph also called a Digraph is a graph where every edge is directed.
 + Unlike an undirected graph, a Digraph has direction. Each node is directed at another node with a specific requirement of what node should be referenced next.
