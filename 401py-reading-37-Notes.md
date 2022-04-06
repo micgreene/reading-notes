@@ -44,3 +44,21 @@
 <br />
 let x = new Func(3, 4)<br />
 x.getSum() // returns 7<br /></code>
+
+## Modules - export/import
+**Modules can be created to export and import code between files.**
+
+index.html
+<code><script src="export.js"></script>
+<script type="module" src="import.js"></script>
+export.js
+
+let func = (a) => a + a
+let obj = {}
+let x = 0
+
+export {func, obj, x}
+import.js
+import {func, obj, x} from './export.js'
+
+console.log(func(3), obj, x)</code>
