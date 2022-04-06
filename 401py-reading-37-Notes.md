@@ -30,17 +30,17 @@
 ## Classes/constructor functions
 **ES6 introducess the class syntax on top of the prototype-based constructor function.**
 
-+ **ES6**
-<code>class Func {
-  constructor(a, b) {
-    this.a = a
-    this.b = b
-  }
-
-  getSum() {
-    return this.a + this.b
-  }
-}
-
-let x = new Func(3, 4)
-x.getSum() // returns 7</code>
++ **ES6**<br />
+<code>class Func {<br />
+  constructor(a, b) {<br />
+    this.a = a<br />
+    this.b = b<br />
+  }<br />
+<br />
+  getSum() {<br />
+    return this.a + this.b<br />
+  }<br />
+}<br />
+<br />
+let x = new Func(3, 4)<br />
+x.getSum() // returns 7<br /></code>
