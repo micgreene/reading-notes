@@ -48,7 +48,7 @@ x.getSum() // returns 7<br /></code>
 ## Modules - export/import
 **Modules can be created to export and import code between files.**
 
-index.html
++ index.html<br />
 <code><script src="export.js"></script>
 <script type="module" src="import.js"></script>
 export.js
@@ -62,3 +62,43 @@ import.js
 import {func, obj, x} from './export.js'
 
 console.log(func(3), obj, x)</code>
+
+
+## Promises/Callbacks
+**Promises represent the completion of an asynchronous function. They can be used as an alternative to chaining functions.**
+
+
++ **ES6 Callback**
+<code>let doSecond = () => {
+  console.log('Do second.')
+}
+
+let doFirst = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log('Do first.')
+
+    resolve()
+  }, 500)
+})
+
+doFirst.then(doSecond)</code>
+
++ **ES6 Promise**
+<code>function makeRequest(method, url) {
+  return new Promise((resolve, reject) => {
+    let request = new XMLHttpRequest()
+
+    request.open(method, url)
+    request.onload = resolve
+    request.onerror = reject
+    request.send()
+  })
+}
+
+makeRequest('GET', 'https://url.json')
+  .then((event) => {
+    console.log(event.target.response)
+  })
+  .catch((err) => {
+    throw new Error(err)
+  })</code>
